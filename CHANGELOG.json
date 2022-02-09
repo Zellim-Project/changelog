@@ -1162,5 +1162,185 @@
         "description": "We are working on a complete chat refactor to a better performance on web and mobile, implementing a complete search function and layout changes."
       }
     ]
+  },
+  "1.0.9": {
+    "releaseName": "1.0.9",
+    "releaseDate": "2021-03-08",
+    "features": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "workingOn": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "fixes": [""],
+    "refactors": [""]
+  },
+  "1.0.8": {
+    "releaseName": "1.0.8",
+    "releaseDate": "2021-03-01",
+    "features": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "workingOn": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "fixes": [""],
+    "refactors": [""]
+  },
+  "1.0.7": {
+    "releaseName": "1.0.7",
+    "releaseDate": "2021-02-22",
+    "features": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "workingOn": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "fixes": [""],
+    "refactors": [""]
+  },
+  "1.0.6": {
+    "releaseName": "1.0.6",
+    "releaseDate": "2021-02-15",
+    "features": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "workingOn": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "fixes": [""],
+    "refactors": [""]
+  },
+  "1.0.5": {
+    "releaseName": "1.0.5",
+    "releaseDate": "2021-02-08",
+    "features": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "workingOn": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "fixes": [""],
+    "refactors": [""]
+  },
+  "1.0.4": {
+    "releaseName": "1.0.4",
+    "releaseDate": "2021-02-01",
+    "features": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "workingOn": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "fixes": [""],
+    "refactors": [""]
+  },
+  "1.0.3": {
+    "releaseName": "1.0.3",
+    "releaseDate": "2021-01-25",
+    "features": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "workingOn": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "fixes": [""],
+    "refactors": [""]
+  },
+  "1.0.2": {
+    "releaseName": "1.0.2",
+    "releaseDate": "2021-01-18",
+    "features": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "workingOn": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "fixes": [""],
+    "refactors": [""]
+  },
+  "1.0.1": {
+    "releaseName": "1.0.1",
+    "releaseDate": "2021-01-11",
+    "features": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "workingOn": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "fixes": [""],
+    "refactors": [""]
+  },
+  "1.0.0": {
+    "releaseName": "1.0.0",
+    "releaseDate": "2021-01-04",
+    "features": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "workingOn": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "fixes": [""],
+    "refactors": [""]
   }
 }
