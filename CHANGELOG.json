@@ -1,200 +1,25 @@
 {
-  "1.0.40": [
+  "1.0.48": [
     {
-      "releaseName": "1.0.40",
-      "releaseDate": "2021-11-08",
+      "releaseName": "1.0.48",
+      "releaseDate": "2022-01-13",
       "features": [
         {
-            "title": "Projects Custom Column",
-            "description": "Now you can create additional columns in your project according to your needs"
+          "title": "White-label concept",
+          "description": "Now we have some features that allow the addition of new themes and some new styles to different themes variation"
         },
         {
-            "title": "Tasks Recurrence",
-            "description": "New feature to automatilly create tasks according to defined rules"
-        },
-        {
-            "title": "Task Checklist Reorder",
-            "description": "With this new feature, you can drag and drop the checklist items of the task to reorder them"
-        },
-        {
-            "title": "Project columns reorder and visibility on tasks list",
-            "description": "Now you can reorder, resize and change visibility of the columns in the project list and tree views"
+          "title": "Internationalization concept",
+          "description": "We create some features that allow the internationalization of the entire system. With this we will be able to go to different countries"
         }
       ],
       "refactors": [
-        "Complete projects refactor. All functions and routes was changed to a better performance",
-        "New layout throughout projects feature for better user experience"
+        "Several improvements on theme loading to improve the application bundle size"
       ],
-      "fixes": [
-      ]
+      "fixes": ["Fix Wizard to add new tutorial video"]
     }
   ],
-  "1.0.41": [
-    {
-      "releaseName": "1.0.41",
-      "releaseDate": "2021-11-15",
-      "features": [
-        {
-          "title": "Accepting code block on chat",
-          "description": "Now you can send code blocks on chat messages"
-        }
-      ],
-      "refactors": [
-        "Video converter improvements",
-        "Application boostrap loading time/size improved by 30%",
-        "Every project folder creation now has name and color mandatory"
-      ],
-      "fixes": [
-        "General fixes on tasks and project socket",
-        "Subtask background and add new subtask title fix",
-        "Delete task fix",
-        "Fix duplicated history and comments",
-        "Open and close subtasks visual bug fix",
-        "Fix on recurrence keep options",
-        "Custom status add and change fix",
-        "General fixes on task upload files",
-        "General fixes on projects assign",
-        "Fix saving project configuration",
-        "General fixes on bug reports",
-        "Delete project fix",
-        "Fix add new task in kanban view",
-        "Fix when send a chat audio message",
-        "Fix incorrect type when sending an emoji on chat",
-        "Return focus to input when insertin an emoji in the text message",
-        "Fix task recurrence keep attachments and comments",
-        "Fix socket of project removal",
-        "General fixes and validations when ty to reproduce video in Safari's browser"
-      ]
-    }
-  ],
-  
-  
-  "1.0.42": [
-    {
-      "releaseName": "1.0.42",
-      "releaseDate": "2021-11-22",
-      "features": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "refactors": [
-        ""
-      ],
-      "fixes": [
-        "Fix Contact - Visual error in contact list",
-        "Fix Webnar - its not possible to create account when set email with empty chars in the end or begin",
-        "Fix Webnar - show correct message when get error",
-        "Fix Webnar - its not validate if the informed email is available",
-        "Fix Bug: Calender View Error",
-        "Fix Organization - Spelling Error",
-        "Fix Chat - Click on replied message goes to the original message",
-        ""
-      ]
-    }
-  ],
-  
-  "1.0.43": [
-    {
-      "releaseName": "1.0.43",
-      "releaseDate": "2021-11-29",
-      "features": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "refactors": [
-        ""
-      ],
-      "fixes": [
-        "Fix Error Message on Deleting Member",
-        "Fix Error mesages in contact without toaster",
-        "Fix apopointment slot card",
-        "Fix Share appopintment slot",
-        "Fix Calendario fica fazendo requisições sem parar"
-      ]
-    }
-  ],
-  
-  "1.0.44": [
-    {
-      "releaseName": "1.0.44",
-      "releaseDate": "2021-12-06",
-      "features": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "refactors": [
-        ""
-      ],
-      "fixes": [
-        "Fix Eventos no calendário está mostrando o botão de compartilhar",
-        "Fix Slot compartilhado não aparece na tela",
-        "Fix Tags nao aparecem nos slots",
-        "Fix Slots nao mostram os usuarios depois de mudar de aba",
-        "Fix slot compartilhado nao mostra o owner correto"
-      ]
-    }
-  ],
-  
-  "1.0.45": [
-    {
-      "releaseName": "1.0.45",
-      "releaseDate": "2021-12-13",
-      "features": [
-        {
-          "title": "",
-          "description": ""
-        }
-      ],
-      "refactors": [
-        ""
-      ],
-      "fixes": [
-        "Fix Wrong load implementation",
-        "Fix Cannot Change Order in List",
-        "Fix Calendar issue",
-        "Fix create organization profile bug",
-        "Fix custom query status is not working"
-      ]
-    }
-  ],
-  
-  "1.0.46": [
-    {
-      "releaseName": "1.0.46",
-      "releaseDate": "2021-12-20",
-      "features": [
-        {
-          "title": "Projects Automation",
-          "description": "Now our project managment system has the power of automations, where users can create automated actions when some specific update is made"
-        },
-        {
-          "title": "Support Board",
-          "description": "Automatically created user and login on Support Board system"
-        }
-      ],
-      "refactors": [
-        "Voice channel version update"
-      ],
-      "fixes": [
-        "Fix Event guest error",
-        "Fix Critical: Not able to complete profile, see video",
-        "Fix calendar pick bug",
-        "Fix Notes layout fixes",
-        "Fix Error when I try to share one note",
-        "Fixed voice channel screen share loop",
-        "Fixed screen share popout on voice channel",
-        "Close popout fix",
-        "Live Chat accounts for every user"
-      ]
-    }
-  ],
-  
+
   "1.0.47": [
     {
       "releaseName": "1.0.47",
@@ -239,26 +64,186 @@
       ]
     }
   ],
-  "1.0.48": [
+
+  "1.0.46": [
     {
-      "releaseName": "1.0.48",
-      "releaseDate": "2022-01-13",
+      "releaseName": "1.0.46",
+      "releaseDate": "2021-12-20",
       "features": [
         {
-          "title": "White-label concept",
-          "description": "Now we have some features that allow the addition of new themes and some new styles to different themes variation"
+          "title": "Projects Automation",
+          "description": "Now our project managment system has the power of automations, where users can create automated actions when some specific update is made"
         },
         {
-          "title": "Internationalization concept",
-          "description": "We create some features that allow the internationalization of the entire system. With this we will be able to go to different countries"
+          "title": "Support Board",
+          "description": "Automatically created user and login on Support Board system"
+        }
+      ],
+      "refactors": ["Voice channel version update"],
+      "fixes": [
+        "Fix Event guest error",
+        "Fix Critical: Not able to complete profile, see video",
+        "Fix calendar pick bug",
+        "Fix Notes layout fixes",
+        "Fix Error when I try to share one note",
+        "Fixed voice channel screen share loop",
+        "Fixed screen share popout on voice channel",
+        "Close popout fix",
+        "Live Chat accounts for every user"
+      ]
+    }
+  ],
+
+  "1.0.45": [
+    {
+      "releaseName": "1.0.45",
+      "releaseDate": "2021-12-13",
+      "features": [
+        {
+          "title": "",
+          "description": ""
+        }
+      ],
+      "refactors": [""],
+      "fixes": [
+        "Fix Wrong load implementation",
+        "Fix Cannot Change Order in List",
+        "Fix Calendar issue",
+        "Fix create organization profile bug",
+        "Fix custom query status is not working"
+      ]
+    }
+  ],
+
+  "1.0.44": [
+    {
+      "releaseName": "1.0.44",
+      "releaseDate": "2021-12-06",
+      "features": [
+        {
+          "title": "",
+          "description": ""
+        }
+      ],
+      "refactors": [""],
+      "fixes": [
+        "Fix Eventos no calendário está mostrando o botão de compartilhar",
+        "Fix Slot compartilhado não aparece na tela",
+        "Fix Tags nao aparecem nos slots",
+        "Fix Slots nao mostram os usuarios depois de mudar de aba",
+        "Fix slot compartilhado nao mostra o owner correto"
+      ]
+    }
+  ],
+  "1.0.42": [
+    {
+      "releaseName": "1.0.42",
+      "releaseDate": "2021-11-22",
+      "features": [
+        {
+          "title": "",
+          "description": ""
+        }
+      ],
+      "refactors": [""],
+      "fixes": [
+        "Fix Contact - Visual error in contact list",
+        "Fix Webnar - its not possible to create account when set email with empty chars in the end or begin",
+        "Fix Webnar - show correct message when get error",
+        "Fix Webnar - its not validate if the informed email is available",
+        "Fix Bug: Calender View Error",
+        "Fix Organization - Spelling Error",
+        "Fix Chat - Click on replied message goes to the original message",
+        ""
+      ]
+    }
+  ],
+
+  "1.0.43": [
+    {
+      "releaseName": "1.0.43",
+      "releaseDate": "2021-11-29",
+      "features": [
+        {
+          "title": "",
+          "description": ""
+        }
+      ],
+      "refactors": [""],
+      "fixes": [
+        "Fix Error Message on Deleting Member",
+        "Fix Error mesages in contact without toaster",
+        "Fix apopointment slot card",
+        "Fix Share appopintment slot",
+        "Fix Calendario fica fazendo requisições sem parar"
+      ]
+    }
+  ],
+  "1.0.41": [
+    {
+      "releaseName": "1.0.41",
+      "releaseDate": "2021-11-15",
+      "features": [
+        {
+          "title": "Accepting code block on chat",
+          "description": "Now you can send code blocks on chat messages"
         }
       ],
       "refactors": [
-        "Several improvements on theme loading to improve the application bundle size"
+        "Video converter improvements",
+        "Application boostrap loading time/size improved by 30%",
+        "Every project folder creation now has name and color mandatory"
       ],
       "fixes": [
-        "Fix Wizard to add new tutorial video"
+        "General fixes on tasks and project socket",
+        "Subtask background and add new subtask title fix",
+        "Delete task fix",
+        "Fix duplicated history and comments",
+        "Open and close subtasks visual bug fix",
+        "Fix on recurrence keep options",
+        "Custom status add and change fix",
+        "General fixes on task upload files",
+        "General fixes on projects assign",
+        "Fix saving project configuration",
+        "General fixes on bug reports",
+        "Delete project fix",
+        "Fix add new task in kanban view",
+        "Fix when send a chat audio message",
+        "Fix incorrect type when sending an emoji on chat",
+        "Return focus to input when insertin an emoji in the text message",
+        "Fix task recurrence keep attachments and comments",
+        "Fix socket of project removal",
+        "General fixes and validations when ty to reproduce video in Safari's browser"
       ]
+    }
+  ],
+  "1.0.40": [
+    {
+      "releaseName": "1.0.40",
+      "releaseDate": "2021-11-08",
+      "features": [
+        {
+          "title": "Projects Custom Column",
+          "description": "Now you can create additional columns in your project according to your needs"
+        },
+        {
+          "title": "Tasks Recurrence",
+          "description": "New feature to automatilly create tasks according to defined rules"
+        },
+        {
+          "title": "Task Checklist Reorder",
+          "description": "With this new feature, you can drag and drop the checklist items of the task to reorder them"
+        },
+        {
+          "title": "Project columns reorder and visibility on tasks list",
+          "description": "Now you can reorder, resize and change visibility of the columns in the project list and tree views"
+        }
+      ],
+      "refactors": [
+        "Complete projects refactor. All functions and routes was changed to a better performance",
+        "New layout throughout projects feature for better user experience"
+      ],
+      "fixes": []
     }
   ]
 }
