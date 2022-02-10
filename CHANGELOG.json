@@ -1,302 +1,1025 @@
 [
   {
-    "releaseName": "1.0.48",
-    "releaseDate": "2022-01-13",
+    "releaseName": "1.0.0",
+    "releaseDate": "2021-01-04",
     "features": [
       {
-        "title": "White-label concept",
-        "description": "Now we have some features that allow the addition of new themes and some new styles to different themes variation"
-      },
-      {
-        "title": "Internationalization concept",
-        "description": "We create some features that allow the internationalization of the entire system. With this we will be able to go to different countries"
+        "title": "Organization invite by email",
+        "description": "Now organization administrator can invite to your organization by email"
       }
+    ],
+    "workingOn": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "fixes": [
+      "Fixed: user search can't use case insensitive",
+      "Fixed: organization profiles were creating without timezone"
     ],
     "refactors": [
-      "Several improvements on theme loading to improve the application bundle size"
-    ],
-    "fixes": ["Fix Wizard to add new tutorial video"]
+      "Profile History Flow",
+      "Project and task notificatiosn cron when mentioned"
+    ]
   },
   {
-    "releaseName": "1.0.47",
-    "releaseDate": "2021-12-28",
+    "releaseName": "1.0.1",
+    "releaseDate": "2021-01-11",
     "features": [
       {
-        "title": "Light Theme",
-        "description": "New we have a light theme, where the white is the base color"
-      },
-      {
-        "title": "User status on contacts",
-        "description": "Now you can see a user status in the contacts list"
-      },
-      {
-        "title": "To do list drag and drop",
-        "description": "Now you can reorder your to do list dragging and dropping items"
+        "title": "Register flow",
+        "description": "Now to create a new account, first needs to verify the email."
       }
+    ],
+    "workingOn": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "fixes": [
+      "Fixed: Users not sending notifications in real-time",
+      "Fixed: Project not saving task assigns",
+      "Fixed: User can't join on voice-channel."
+    ],
+    "refactors": [""]
+  },
+  {
+    "releaseName": "1.0.2",
+    "releaseDate": "2021-01-18",
+    "features": [
+      {
+        "title": "New socket system",
+        "description": "Created new socket system to improve zellim performance"
+      }
+    ],
+    "workingOn": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "fixes": [
+      "Fixed: users can't accept friend invitation",
+      "Fixed: chat groups not deleting when delete project",
+      "Fixed: Remove task parent reference when move task"
     ],
     "refactors": [
-      "Complete color refactor on lateral menu bars",
-      "Project layout refactor, where the margins was removed to a better space and integration with the menu bars and a better use of space by the user",
-      "Calendar layout refactor",
-      "Booking and Appointment slots layout adjustments and top border color correction",
-      "Dashboard grid system refactor and improvement",
-      "Dashboard calculator layout refactor",
-      "Refactor on chat button and voice channel controls to a better integration with fullscreen modals",
-      "Notes layout refactor",
-      "Vault layout refactor",
-      "Conference page tables layout refactor",
-      "Refactor and update the styles framework to a better performance"
-    ],
-    "fixes": [
-      "Fix Calendar - wrong dates",
-      "Fix Appointment slot empty after delete all events",
-      "Fix Appointment Location wrong",
-      "Fix Change profile downgrade loop",
-      "Removed min of 3 characters on general search",
-      "Fixed 'Show only first name' on chat messages",
-      "Fixed groups search when adding a new chat group",
-      "Fixed projects list subtask margins",
-      "Dashboard Calendar widget show wrong events"
+      "Project notifications when add new members",
+      "Project permission notifications"
     ]
   },
   {
-    "releaseName": "1.0.46",
-    "releaseDate": "2021-12-20",
+    "releaseName": "1.0.3",
+    "releaseDate": "2021-01-25",
     "features": [
       {
-        "title": "Projects Automation",
-        "description": "Now our project managment system has the power of automations, where users can create automated actions when some specific update is made"
+        "title": "Affialate",
+        "description": "Created affiliate system."
+      }
+    ],
+    "workingOn": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "fixes": [
+      "Fixed: Voice channel not working with new chat groups.",
+      "Fixed: Permissions validation nto working on project",
+      "Fixed: Remove profile history from project",
+      "Fixed: Description attachments not working on tasks"
+    ],
+    "refactors": [""]
+  },
+  {
+    "releaseName": "1.0.4",
+    "releaseDate": "2021-02-01",
+    "features": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "workingOn": [
+      {
+        "title": "Plans",
+        "description": "Improving plan limits and features."
+      }
+    ],
+    "fixes": [
+      "Organization profiles showing on user search",
+      "Update affiliate reference when affiliated user upgrade plan",
+      "Different plan options to affiliated user",
+      "Fixed: calendar default colors when user create new profile"
+    ],
+    "refactors": ["Contact import from CSV"]
+  },
+  {
+    "releaseName": "1.0.5",
+    "releaseDate": "2021-02-08",
+    "features": [
+      {
+        "title": "Zellim Cockpit - Affiliate",
+        "description": "Create new page on cockpit to manage affiliates"
+      }
+    ],
+    "workingOn": [
+      {
+        "title": "Zellim Cockpit - Members Report",
+        "description": "Creating page to export all members into CSV"
+      }
+    ],
+    "fixes": [
+      "Fixed: vault can't get folders",
+      "Fixed: vault storage limit",
+      "Fixed: vault security token strategy"
+    ],
+    "refactors": ["Changed organization invite email"]
+  },
+  {
+    "releaseName": "1.0.6",
+    "releaseDate": "2021-02-15",
+    "features": [
+      {
+        "title": "Organization",
+        "description": "Now organization can be deleted."
+      }
+    ],
+    "workingOn": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "fixes": [
+      "Fixed: organization plans limits and feature availability",
+      "Fixed: leave button of organization. When user tried leave from organization now we remove all user informations from organization.",
+      "Fixed: resend email when user try create account"
+    ],
+    "refactors": ["Create user account email template."]
+  },
+  {
+    "releaseName": "1.0.7",
+    "releaseDate": "2021-02-22",
+    "features": [
+      {
+        "title": "Zellim Cockpit - Organization",
+        "description": "Created a new page on cockpit to manage system organization"
+      }
+    ],
+    "workingOn": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "fixes": [
+      "Remove vault recording upload limit",
+      "Fixed: integration scope (google)",
+      "Fixed: user search when tried to search user by email"
+    ],
+    "refactors": [""]
+  },
+  {
+    "releaseName": "1.0.8",
+    "releaseDate": "2021-03-01",
+    "features": [
+      {
+        "title": "Contact when create account",
+        "description": "Now when users create one account we create a contact with your information on your self contact list"
+      }
+    ],
+    "workingOn": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "fixes": [
+      "Mobile notifications from module 'user'",
+      "Fixed: wrong plan informations and limits.",
+      "Fixed: Emails sent from marketing not reaching users."
+    ],
+    "refactors": [""]
+  },
+  {
+    "releaseName": "1.0.9",
+    "releaseDate": "2021-03-08",
+    "features": [
+      {
+        "title": "Affiliate details",
+        "description": "Now users can see details about users created accounts by your affiliate link"
       },
       {
-        "title": "Support Board",
-        "description": "Automatically created user and login on Support Board system"
+        "title": "Organization Info - Member",
+        "description": "Now members can see information about the organization they belong to."
       }
     ],
-    "refactors": ["Voice channel version update"],
-    "fixes": [
-      "Fix Event guest error",
-      "Fix Critical: Not able to complete profile, see video",
-      "Fix calendar pick bug",
-      "Fix Notes layout fixes",
-      "Fix Error when I try to share one note",
-      "Fixed voice channel screen share loop",
-      "Fixed screen share popout on voice channel",
-      "Close popout fix",
-      "Live Chat accounts for every user"
-    ]
-  },
-  {
-    "releaseName": "1.0.45",
-    "releaseDate": "2021-12-13",
-    "features": [
+    "workingOn": [
       {
         "title": "",
         "description": ""
       }
     ],
-    "refactors": [""],
     "fixes": [
-      "Fix Wrong load implementation",
-      "Fix Cannot Change Order in List",
-      "Fix Calendar issue",
-      "Fix create organization profile bug",
-      "Fix custom query status is not working"
+      "User changelog version not saving correctly on user-config",
+      "Logout user from other devices when leave from organization",
+      "Fixed: When user leave from organization not deleting your phone number."
+    ],
+    "refactors": [""]
+  },
+  {
+    "releaseName": "1.0.10",
+    "releaseDate": "2021-03-15",
+    "features": [
+      {
+        "title": "Contact Reference",
+        "description": "Now you can reference an individual contact on a note or task. You can see all references of a contact in the contact details. You can also see all the groups that each contact is part of, from the contact details."
+      },
+      {
+        "title": "Calendar Improvement",
+        "description": "Now you can cancel and reschedule appointment slots that have already been confirmed. It will email the guest(s) to confirm the new status of the event. Also, you can add a buffer time after each slot generated, to give you time to prepare between meetings."
+      }
+    ],
+    "fixes": [
+      "The alert when scheduling a slot into minimum scheduling time",
+      "Scheduled event discrepancy between calendar and conference",
+      "Scheduled meetings not sending invites to contacts",
+      "Correction on the referral reference",
+      "Many visual adjustments on calendar",
+      "Contact list change on update",
+      "Contact tags correction"
+    ],
+    "workingOn": [
+      {
+        "title": "Zellim Inbox",
+        "description": "Our email reader feature is coming soon!"
+      },
+      {
+        "title": "Contact Reference",
+        "description": "We are working on the contact reference for calendar events and the list of all conferences in which a contact attended."
+      },
+      {
+        "title": "Chat Refactor",
+        "description": "We are working on a complete chat refactor to a better performance on web and mobile, implementing a complete search function and layout changes."
+      }
     ]
   },
   {
-    "releaseName": "1.0.44",
-    "releaseDate": "2021-12-06",
+    "releaseName": "1.0.11",
+    "releaseDate": "2021-03-22",
     "features": [
       {
-        "title": "",
-        "description": ""
+        "title": "Contact Reference",
+        "description": "In aditional to the last week Contact Reference update, now you can reference an individual contact on an event. You can see all references of a contact in the contact details. You can also see all the meeting that each contact is part of, from the contact details."
       }
     ],
-    "refactors": [""],
     "fixes": [
-      "Fix Eventos no calendário está mostrando o botão de compartilhar",
-      "Fix Slot compartilhado não aparece na tela",
-      "Fix Tags nao aparecem nos slots",
-      "Fix Slots nao mostram os usuarios depois de mudar de aba",
-      "Fix slot compartilhado nao mostra o owner correto"
+      "Removed the slot event line from calendar",
+      "Changed the view slot modal",
+      "Inserted info tooltip on Duration, Buffer and Minimum Schedule Notice fields in the calendar event modal",
+      "Changed the default value of Minimum Schedule Notice to 0",
+      "Changed the date and time input on calendar event modal",
+      "Updated the google place API",
+      "Removed the favorite icon in shared contacts with permission to view only",
+      "Search fixed in the Add Widget modal",
+      "Fixed adding groups error",
+      "Fixed second profile edit error",
+      "Fixed email invite on events",
+      "Updated apple contact import",
+      "Fixed notes deletion",
+      "Fixed notes search by tag",
+      "Fixed add task datepicker"
+    ],
+    "workingOn": [
+      {
+        "title": "Zellim Inbox",
+        "description": "Our email reader feature is coming soon!"
+      },
+      {
+        "title": "Chat Refactor",
+        "description": "We are working on a complete chat refactor to a better performance on web and mobile, implementing a complete search function and layout changes."
+      }
     ]
   },
   {
-    "releaseName": "1.0.42",
-    "releaseDate": "2021-11-22",
+    "releaseName": "1.0.12",
+    "releaseDate": "2021-03-29",
     "features": [
       {
-        "title": "",
-        "description": ""
+        "title": "Chat Appointment Slot Unavailable",
+        "description": "Now you can set one or more slots in your appointment slots calendar as unavailable"
+      },
+      {
+        "title": "Screen Recorder",
+        "description": "We have a new feature to record your screen and save it locally, so you can use your record as you can."
+      },
+      {
+        "title": "Video Guides",
+        "description": "Inserted video guides for the features: Dashboard, Notes, Vault and Groups"
       }
     ],
-    "refactors": [""],
     "fixes": [
-      "Fix Contact - Visual error in contact list",
-      "Fix Webnar - its not possible to create account when set email with empty chars in the end or begin",
-      "Fix Webnar - show correct message when get error",
-      "Fix Webnar - its not validate if the informed email is available",
-      "Fix Bug: Calender View Error",
-      "Fix Organization - Spelling Error",
-      "Fix Chat - Click on replied message goes to the original message",
+      "Fixed creation of Groups from chat",
+      "Fix in group image edit",
+      "Improvements, implementation / refactoring of contacts",
+      "Fix in contact / profile settings",
+      "Removed Zendesk",
+      "Auto focus in password login input",
+      "Fix the conference history listing by the contact",
+      "Refactoring the cache of plans in the cockpit",
+      "Refactoring in creating contact from friendlist",
+      "Calendar and conference next meeting out of sync",
+      "Incorrect timezone in public slots",
+      "Wrong timezone in apple events",
+      "Miss spelled word in appointment slot email confirmation",
+      "Missing information in the event guests list notifications",
+      "Event invite email notifications that were not sending to group members",
+      "Calendar booking card overlapping when create a new booking",
+      "Appointment confirmation modal error overflow on booked list",
+      "Subscription modal in the appointment block was breaking the view",
+      "Confirmation event page in the appointment slot was breaking the view",
+      "Video guides layout adjustments",
+      "Fixed bug when you when you don't want to save a task",
+      "Note card updated when add/remove collaborator",
+      "Project task alert screen when selected close option"
+    ],
+    "workingOn": [
+      {
+        "title": "Zellim Inbox",
+        "description": "Our email reader feature is coming soon!"
+      },
+      {
+        "title": "Chat Refactor",
+        "description": "We are working on a complete chat refactor to a better performance on web and mobile, implementing a complete search function and layout changes."
+      },
+      {
+        "title": "New payment gateway",
+        "description": "We are working on a new payment platform to better control plans and take more control over the payments."
+      },
+      {
+        "title": "Conference Branding",
+        "description": "Soon you'll be able to add customized logo and background in all your conference rooms"
+      }
+    ]
+  },
+  {
+    "releaseName": "1.0.13",
+    "releaseDate": "2021-04-05",
+    "features": [
+      {
+        "title": "Conference Branding",
+        "description": "Soon you'll be able to add customized logo and background in all your conference rooms"
+      },
+      {
+        "title": "Video Guides",
+        "description": "Inserted video guides for the features: Calendar and Contacts"
+      }
+    ],
+    "fixes": [
+      "Fix notes pin when shared with me",
+      "Fix populated tags when updated",
+      "Fix when remove comment and remove attachments on task modal",
+      "Fix instruction to create commentary included",
+      "Fix weird behavior on edit custom query name",
+      "Fix horizontal scroll on task header tabs",
+      "Fix hide edit options when edit embed view on task modal",
+      "Fix icon link on task modal",
+      "Fix multiples attachments on task modal",
+      "Fix alert screen persists after choosing the close option on task modal",
+      "Fix of bulk deleted profile",
+      "Fix of deleted tags",
+      "Tag logic improvements",
+      "Fix profile settings",
+      "Fix filter color tags",
+      "Fix pin tags",
+      "Fix accept friend invitation",
+      "Fix and remove empty contacts",
+      "Create routes to to detail playlist",
+      "Fix task duplicated without subtasks",
+      "Fix many selected contacts delete",
+      "Updated changelog of the version 10.0.12"
+    ],
+    "workingOn": [
+      {
+        "title": "Zellim Inbox",
+        "description": "Our email reader feature is coming soon!"
+      },
+      {
+        "title": "Chat Refactor",
+        "description": "We are working on a complete chat refactor to a better performance on web and mobile, implementing a complete search function and layout changes."
+      },
+      {
+        "title": "New payment gateway",
+        "description": "We are working on a new payment platform to better control plans and take more control over the payments."
+      }
+    ]
+  },
+  {
+    "releaseName": "1.0.14",
+    "releaseDate": "2021-04-12",
+    "features": [
+      {
+        "title": "Zellim Inbox",
+        "description": "It's launched the MVP of our email reader. With Zellim Inbox you can access all your email accounts in one place."
+      },
+      {
+        "title": "Native Voice Channel",
+        "description": "Native voice channel communication in our Zellim Chat mobile app"
+      },
+      {
+        "title": "Push Notifications",
+        "description": "Push notifications for Zellim mobile app"
+      },
+      {
+        "title": "Video Guides",
+        "description": "Inserted video guides for the features: Projects"
+      }
+    ],
+    "fixes": [
+      "Conference Branding layout adjustments",
+      "Fix wizard room bugs",
+      "Enabled 'Start Conference' buton in conference card when the room is opened",
+      "Impooved conference join from web and mobile",
+      "Corrected login request on join conference from Brave, Safari and Incognito browsers",
+      "Corrected Help Center position issue",
+      "Added button to close the Help Center modal",
+      "Close Help Center when click outside the modal",
+      "Fix task duplication error",
+      "Fix task losing description contente",
+      "Fix tripplicating attachments on tasks",
+      "Fix wording groups to folder on add new task",
+      "Removed phone when creating an organization profile",
+      "Recordind UX adjustments",
+      "Fix contact verification in login",
+      "Fix bugs on profile settiing permissions",
+      "Validation when creating groups"
+    ],
+    "workingOn": [
+      {
+        "title": "Chat Refactor",
+        "description": "We are working on a complete chat refactor to a better performance on web and mobile, implementing a complete search function and layout changes."
+      },
+      {
+        "title": "New payment gateway",
+        "description": "We are working on a new payment platform to better control plans and take more control over the payments."
+      }
+    ]
+  },
+  {
+    "releaseName": "1.0.15",
+    "releaseDate": "2021-04-19",
+    "features": [
+      {
+        "title": "New Help Center",
+        "description": "New centralized help center with all Video Tutorials, Live Chat, and Bug Reports"
+      }
+    ],
+    "fixes": [
+      "Fix improve the inputs validations in a user registration",
+      "Improvements on notification",
+      "Fix login problems with mobile",
+      "Fix vault plugin on groups",
+      "Add profile to contact in conference",
+      "Fix the conference contact creation",
+      "Add order to video playlists",
+      "Fixed add a file inside the content of an email",
+      "Fixed send to trash inbox",
+      "Inbox layout adjustments",
+      "Open conference sending parameters to auto login",
+      "Screen Record tests and improovements",
+      "Inserted an open button on Bookings and Appointment Slots",
+      "Fixed login and signup input fields",
+      "Fixed vault auto lock",
+      "Fix Delete messages on Inbox",
+      "Added an alert when destinatary isn't selected",
+      "Improved component to select a contact or add a new email",
+      "Fix Connected accounts is in infinite loop",
+      "Fix Can't sync outlook",
+      "Add bulk actions in email list and email view",
+      "Add icon to show when the email have a draft"
+    ],
+    "workingOn": [
+      {
+        "title": "Chat Refactor",
+        "description": "We are working on a complete chat refactor to a better performance on web and mobile, implementing a complete search function and layout changes."
+      },
+      {
+        "title": "New payment gateway",
+        "description": "We are working on a new payment platform to better control plans and take more control over the payments."
+      },
+      {
+        "title": "New Zellim plans and Limits",
+        "description": "We are refactoring all system plans and limits."
+      }
+    ]
+  },
+  {
+    "releaseName": "1.0.16",
+    "releaseDate": "2021-04-23",
+    "features": [
+      {
+        "title": "Video Guides",
+        "description": "Inserted video guides for the features: Organization and Chat"
+      }
+    ],
+    "fixes": [
+      "Fixed search error feedback",
+      "Added Save button in notes",
+      "Fixed saving phone and email provile when change public toggle",
+      "Fixed inbox when there is no linked email account",
+      "Fixed calendar event invite notification",
+      "Fixed Add time manually on tasks",
+      "Removed user of organization appears as a deleted on tasks list",
+      "Fixed add addresses in contacts",
+      "Fixed error on Groups filter",
+      "Fixed inbox email delete",
+      "Added websocket for new and updated messages on inbox",
+      "Fixed attach files error",
+      "Calendar events from apple imported with wrong data",
+      "Deleting reccuring events not delete all the reccurring events",
+      "Linked guests throwing a validation error",
+      "Phone validation issues, when verifying a phone in profile settings",
+      "Not showing an event created in google from zellim",
+      "Fixed search on projets",
+      "Task due soon refactor",
+      "Fixed ulpoad files on Vault",
+      "Fixed notification on organization creation",
+      "Fixed moving task folder",
+      "Fixed connect button on conttacts",
+      "Fixed rename vault files",
       ""
+    ],
+    "workingOn": [
+      {
+        "title": "Chat Refactor",
+        "description": "We are working on a complete chat refactor to a better performance on web and mobile, implementing a complete search function and layout changes."
+      },
+      {
+        "title": "New payment gateway",
+        "description": "We are working on a new payment platform to better control plans and take more control over the payments."
+      }
     ]
   },
   {
-    "releaseName": "1.0.43",
-    "releaseDate": "2021-11-29",
+    "releaseName": "1.0.17",
+    "releaseDate": "2021-04-26",
     "features": [
       {
-        "title": "",
-        "description": ""
+        "title": "Chad Admin Rules",
+        "description": "Now admins can manage rules to the chat groups"
+      },
+      {
+        "title": "Calendar Alert",
+        "description": "Launch an alert message to invite a group into a google event"
+      },
+      {
+        "title": "Calendar Delete",
+        "description": "Prevent to delete default calendar"
       }
     ],
-    "refactors": [""],
-    "fixes": [
-      "Fix Error Message on Deleting Member",
-      "Fix Error mesages in contact without toaster",
-      "Fix apopointment slot card",
-      "Fix Share appopintment slot",
-      "Fix Calendario fica fazendo requisições sem parar"
-    ]
-  },
-  {
-    "releaseName": "1.0.41",
-    "releaseDate": "2021-11-15",
-    "features": [
-      {
-        "title": "Accepting code block on chat",
-        "description": "Now you can send code blocks on chat messages"
-      }
-    ],
-    "refactors": [
-      "Video converter improvements",
-      "Application boostrap loading time/size improved by 30%",
-      "Every project folder creation now has name and color mandatory"
-    ],
-    "fixes": [
-      "General fixes on tasks and project socket",
-      "Subtask background and add new subtask title fix",
-      "Delete task fix",
-      "Fix duplicated history and comments",
-      "Open and close subtasks visual bug fix",
-      "Fix on recurrence keep options",
-      "Custom status add and change fix",
-      "General fixes on task upload files",
-      "General fixes on projects assign",
-      "Fix saving project configuration",
-      "General fixes on bug reports",
-      "Delete project fix",
-      "Fix add new task in kanban view",
-      "Fix when send a chat audio message",
-      "Fix incorrect type when sending an emoji on chat",
-      "Return focus to input when insertin an emoji in the text message",
-      "Fix task recurrence keep attachments and comments",
-      "Fix socket of project removal",
-      "General fixes and validations when ty to reproduce video in Safari's browser"
-    ]
-  },
-  {
-    "releaseName": "1.0.40",
-    "releaseDate": "2021-11-08",
-    "features": [
-      {
-        "title": "Project Custom Column",
-        "description": "Now you can create additional columns in your project according to your needs"
-      },
-      {
-        "title": "Task Recurrence",
-        "description": "New feature to automatilly create tasks according to defined rules"
-      },
-      {
-        "title": "Task Checklist Reorder",
-        "description": "With this new feature, you can drag and drop the checklist items of the task to reorder them"
-      },
-      {
-        "title": "Project columns reorder and visibility on tasks list",
-        "description": "Now you can reorder, resize and change visibility of the columns in the list and tree views of a project"
-      },
-      {
-        "title": "New task history for attachments and comments",
-        "description": "New history for attached and deleted files and deleted comments"
-      },
-      {
-        "title": "Zellim desktop 2.0.1",
-        "description": "New version of Zellim desktop with new workspaces and personalized services"
-      },
-      {
-        "title": "Zellim desktop password lock validator",
-        "description": "add password validator to lock the app"
-      },
-      {
-        "title": "Project Folders Changes",
-        "description": "Working with group socket to change folders inside project"
-      }
-    ],
-    "refactors": [
-      "Complete projects feature refactor. All functions and routes was changed to a better performance",
-      "New layout throughout projects feature for better user experience",
-      "Complete tasks and projects socket refactor",
-      "Tasks and projects dashboard widgets refactor",
-      "Tracker screenshots component",
-      "Zellim desktop - service bar for better navigation",
-      "Zellim desktop - Add password lock validator",
-      "Add approach to load data properly when use inside Zellim App"
-    ],
-    "fixes": [
-      "Allow exit and delete an organization from anothers profiles",
-      "Block bulk invites to all contact lists",
-      "Parse all the contacts and profiles names to Capitalize",
-      "Email invite showing 30 days trial",
-      "Missing contacts in groups",
-      "Wrong icons on contact list view",
-      "Mismatch between groups and profile tags",
-      "Apointment slots edition from dashboard widget",
-      "Email input not allowing the use of alias, when creating an account or login into de zellim system",
-      "Filter appointment slots view by calendar",
-      "Bug in the event's date picker not allowing select customized dates",
-      "Increase the limit storage into the system on the premiun accounts",
-      "Fixed the frined request from non existent users",
-      "Fixed several view problems in the apple app",
-      "Scroll not working in the profile setting on the mobile app",
-      "Missing chat channels in the mobile app",
-      "Organization not allowing to resend invites",
-      "Error when trying to export an empty csv",
-      "Fixed the activity levels Colors in tracker",
-      "Fixed handle idle time in front",
-      "Zellim desktop - Chat screenshare popout window"
-    ]
-  },
-  {
-    "releaseName": "1.0.39",
-    "releaseDate": "2021-09-27",
-    "features": [
-      {
-        "title": "Customized Menu Colors",
-        "description": "Customize Zellim menu and search bar colors in profile settings"
-      }
-    ],
-    "refactors": ["Contact - faster and accurate search in the contact search"],
     "fixes": []
   },
   {
-    "releaseName": "1.0.38",
-    "releaseDate": "2021-09-20",
+    "releaseName": "1.0.18",
+    "releaseDate": "2021-05-03",
+    "features": [],
+    "fixes": ["Over 50+ small and medium bugs resolved"]
+  },
+  {
+    "releaseName": "1.0.19",
+    "releaseDate": "2021-05-10",
     "features": [
       {
-        "title": "Calendar Timezone",
-        "description": "Easier timezone picker in the event modal"
+        "title": "Contacts Architecture",
+        "description": "New contacts architecture to handle a greater number of contacts, better merging experience and speed up the search."
       },
       {
-        "title": "Calendar Event Reminder",
-        "description": "Event reminder sounds includes humanized voice to not miss any event"
+        "title": "Contact Action Buttons",
+        "description": "Contacts - Add speed actions buttons into the contact view"
       }
     ],
-    "refactors": ["Notes - Faster notes at first loading"],
     "fixes": [
-      "Notes - Contacts not showing from a shared note",
-      "Calendar - Event reminder notification not showing complete event title",
-      "Calendar - Not creating 15 minutes events"
+      "Desktop App - User can open a room without being a moderator",
+      "Projects - Fix custom query when a query disappears from list",
+      "Projects - Fix internal server error creating project without name",
+      "Projects - Fix included own permissions",
+      "Projects - Fix mention does not work on sub-subtask",
+      "Projects - Fix limit subtasks to only one level",
+      "Projects - Fix search by Task Number",
+      "Projects - Fix text is not changing to black automatically"
+    ]
+  },
+  {
+    "releaseName": "1.0.20",
+    "releaseDate": "2021-05-17",
+    "features": [
+      {
+        "title": "Presentation Conference",
+        "description": "New webinar conference platform"
+      },
+      {
+        "title": "Presentation Dashboard",
+        "description": "Implements Presentation cards and History"
+      },
+      {
+        "title": "Payment Method",
+        "description": "New payment method and upgrade plan"
+      }
+    ],
+    "refactors": [
+      "Login - Refactor new profile",
+      "Login - Refactor new organization profile",
+      "Login - Refactor login page",
+      "Organization - Now users can leave an organization. We inserted a button on the organization page where you can do this action.",
+      "Organization - We changed the status buttons layout so now you have more actions like remove a user or revoke pending invitations, with a mouse click"
+    ],
+    "fixes": [
+      "Profile - Fix new profile building problem",
+      "Profile - Fix general fixes about upgrade plan",
+      "Chat - Removed private user information for the chat information screen",
+      "Chat - Fix chat group URI link",
+      "Chat - Fix edit a message with a mention",
+      "Chat - Join a group by link window layout improvement",
+      "Mentions - Automatically close the mention window when there is no match",
+      "Mentions - Don’t open the mention window when the character before the @ or # is not an empty space",
+      "Profile - Fixed bug where changing to a deleted profile might prevent log in"
+    ]
+  },
+  {
+    "releaseName": "1.0.21",
+    "releaseDate": "2021-05-24",
+    "features": [
+      {
+        "title": "Project Groups",
+        "description": "Working with users from group to project"
+      }
+    ],
+    "fixes": [
+      "Projects - Fix different Headers from Tasks",
+      "Conferencing - Bug when editing a next meeting",
+      "Conferencing - Fix Presentation and rooms dashboard widget",
+      "Conferencing - Fix on 'Waiting for the host' conference page",
+      "Conferencing - Running not appears in Presentation and Meetings"
+    ]
+  },
+  {
+    "releaseName": "1.0.22",
+    "releaseDate": "2021-05-31",
+    "features": [
+      {
+        "title": "Presentation Recording",
+        "description": "Recording option on Presentation"
+      },
+      {
+        "title": "Presentation End Page",
+        "description": "Presentation end Presentation Page"
+      },
+      {
+        "title": "Global Alert",
+        "description": "New global alert service"
+      }
+    ],
+    "fixes": [
+      "Conferencing - Recent presentation does not appear in History",
+      "Profile - Fix profile menu on tablet device",
+      "Projects - Fix validate apply coupon"
+    ]
+  },
+  {
+    "releaseName": "1.0.23",
+    "releaseDate": "2021-06-07",
+    "features": [],
+    "refactors": [
+      "Wizard - Refactor wizard profile",
+      "Chat - Add project name to group on chat"
+    ],
+    "fixes": [
+      "Conference - Fix correct Grammar on conference",
+      "Profile - Fix general fixes about global alert",
+      "Chat - Fixed messages forward",
+      "Conferencing - Fix: Presentation cards schedule",
+      "Conferencing - Fix: presentation history icons"
+    ]
+  },
+  {
+    "releaseName": "1.0.24",
+    "releaseDate": "2021-06-14",
+    "features": [
+      {
+        "title": "Login Recaptcha",
+        "description": "New recaptcha service"
+      },
+      {
+        "title": "Automatic Updates on Chat",
+        "description": "When group changes, the chat will change automatically"
+      }
+    ],
+    "refactors": [
+      "Chat - Complete chat structural refactor for a better web and mobile performance, with new layout especially for project voice and messages channels",
+      "Desktop App - Refactor on online detector",
+      "Profile - Refactor ranking component",
+      "Chat/Group - Remove plugin of group"
+    ],
+    "fixes": [
+      "Desktop App - Create presentation window",
+      "Desktop App - Navigation chat on push notification",
+      "Contacts - Fix input Email/Phone",
+      "Projects - Fix list disappear on project",
+      "Login - Fix human key from captcha"
+    ]
+  },
+  {
+    "releaseName": "1.0.25",
+    "releaseDate": "2021-06-21",
+    "features": [
+      {
+        "title": "Presentation Password",
+        "description": "Show and hide password presentation card"
+      },
+      {
+        "title": "Chat Group Import",
+        "description": "Possibility to create a chat group importing members from contact groups"
+      },
+      {
+        "title": "Automatic Updates on Chat",
+        "description": "When project changes, the chat will change automatically"
+      },
+      {
+        "title": "Automatic Add Group on Chat",
+        "description": "When adding a new group to project, the group will be added to chat automatically"
+      }
+    ],
+    "refactors": [
+      "Chat - Recents list virtual scroll pagination",
+      "Profile - Refactor color picker"
+    ],
+    "fixes": [
+      "Profile - Fixed a bug that shows wrong profile data when you change the profile in another tab",
+      "Chat - Reviewed all chat counters",
+      "Chat - Reviewed all chat scrolls",
+      "Projects - Fix Custom Queries don't show subtasks",
+      "Projects - Fix assigning someone in a subtask",
+      "Projects - Fix profile wizard",
+      "Chat - Fix chat context menu more options",
+      "Projects - Fix optimize requests project view",
+      "Projects - Fix filter projects from store"
+    ]
+  },
+  {
+    "releaseName": "1.0.26",
+    "releaseDate": "2021-06-28",
+    "features": [
+      {
+        "title": "Voice Channel Invitation",
+        "description": "New chat feature to invite someone to join a channel"
+      },
+      {
+        "title": "Click To Go To Original",
+        "description": "Click on replied chat message goes to the original message"
+      },
+      {
+        "title": "Calendar Event Handle",
+        "description": "Implement an automated system to handle the events when multiple events are in the same time slot as busy-slots"
+      },
+      {
+        "title": "Chat Validation",
+        "description": "Validation of conversation starts with someone that isn’t your connection yet"
+      }
+    ],
+    "refactors": ["Login - Refactor signup page"],
+    "fixes": [
+      "Calendar - Fix explaining text to link a contact in the event model",
+      "Calendar - Fixed calendar public not showing booked appointments",
+      "Projects - Fix optimize custom queries projects",
+      "Profile - Fix referral logic on plan",
+      "Projects - Fix plan to coupon 100%"
+    ]
+  },
+  {
+    "releaseName": "1.0.27",
+    "releaseDate": "2021-07-05",
+    "features": [
+      {
+        "title": "Highlight Search Results",
+        "description": "Highlight on search results word on chat"
+      },
+      {
+        "title": "Calendar Reminders",
+        "description": "Set default reminders to all Zellim events"
+      },
+      {
+        "title": "Events Reminder Toaster",
+        "description": "Toaster in the event's reminders, that allows you to get a visual notice that the event is near."
+      },
+      {
+        "title": "One Click Select",
+        "description": "Implement one click select in the mini calendar view"
+      }
+    ],
+    "refactors": ["Chat - Refactor of the approach of archive conversation"],
+    "fixes": [
+      "Login - Fix refactor ip location service",
+      "Projects - Fix upgrade account bug",
+      "Profile - Fix logic expired to user",
+      "Projects - Fix flicks on tree view projects",
+      "Projects - Fix update store when leaving project",
+      "Profile - Fix bug when saving birthday date",
+      "Calendar - Fixed rendering recurrent events after modified",
+      "Contacts - Fixed searching all profiles using special characters"
+    ]
+  },
+  {
+    "releaseName": "1.0.28",
+    "releaseDate": "2021-07-12",
+    "features": [
+      {
+        "title": "Improved Chat Search",
+        "description": "Improved chat search engine to search messages and conversations"
+      },
+      {
+        "title": "Chat Search History",
+        "description": "Save the words searched on chat"
+      },
+      {
+        "title": "Profile Info",
+        "description": "New profile info shown in the profiles contacts"
+      },
+      {
+        "title": "Embed Widget",
+        "description": "Dashboard Embedded Widget Improvements"
+      }
+    ],
+    "fixes": [
+      "Desktop App - Fix chat desktop bridge navigate",
+      "Profile - Fix alpha colors from color picker"
+    ]
+  },
+  {
+    "releaseName": "1.0.29",
+    "releaseDate": "2021-07-19",
+    "features": [
+      {
+        "title": "Lock Voice Channel",
+        "description": "Voice channel lock feature to make a private conversation in a channel"
+      }
+    ],
+    "refactors": [
+      "Chat - Adjust record layout",
+      "Chat - Changed audio message status layout"
+    ],
+    "fixes": [
+      "Projects - Fix manual timesheet entry error",
+      "Vault - Fix attachment in Chat",
+      "Vault - Fix Vault does not unlock when I use the QR reader",
+      "Chat - Infinite loading when don't have recents list",
+      "Chat - Fixed close chat when change profile or remove recent",
+      "Chat - Input focus when open conversation",
+      "Chat - Unable to read message in groups",
+      "Chat - Fix search history duplication",
+      "Chat - Fixed bug when accepting connection in chat"
+    ]
+  },
+  {
+    "releaseName": "1.0.30",
+    "releaseDate": "2021-07-26",
+    "features": [],
+    "refactors": [
+      "Chat - Scroll refactor",
+      "Chat - Do not disturb alerts refactor",
+      "Notifications - Refactor of notifications count"
+    ],
+    "fixes": [
+      "Chat - Fix messages status",
+      "Chat - Fix input focus when opening a conversation",
+      "Contacts - Fix the loader in the import contacts message",
+      "Calendar - Fix the holidays view",
+      "Calendar - Assign events to the schedules in the conference tab",
+      "Calendar - Fix data picker in the event modal",
+      "Projects - Fix setting event on mentions task",
+      "Projects - Fix duplicate task ID in the project",
+      "Chat - Fix mentions tasks",
+      "Chat - Fix mentions user",
+      "Projects - Fix project permissions",
+      "Projects - Fix project list view optimize",
+      "Profile - Url validation on social media information",
+      "Profile - Fix bug when saving phone number",
+      "Chat - Fix message status"
+    ]
+  },
+  {
+    "releaseName": "1.0.31",
+    "releaseDate": "2021-08-02",
+    "features": [],
+    "fixes": [
+      "Profile - Fix logout when invite a Organization Profile in the contact",
+      "Calendar - Fixed Cron Job in calendar events"
+    ]
+  },
+  {
+    "releaseName": "1.0.32",
+    "releaseDate": "2021-08-09",
+    "features": [
+      {
+        "title": "Google Birthday Events",
+        "description": "Fetch birthday events from google calendars"
+      },
+      {
+        "title": "Chat Media With Text",
+        "description": "Send media with text message"
+      },
+      {
+        "title": "Played Audio Status",
+        "description": "New audio message status 'played' on chat"
+      },
+      {
+        "title": "Attachments Page",
+        "description": "New attachment list page of chat conversation"
+      }
+    ],
+    "fixes": [
+      "Chat - Fix open chat from contacts",
+      "Profile - Fix bug modal upgrade plan",
+      "Profile - Fix bug active plan",
+      "Profile - Fix label billing free",
+      "Chat - Fix audio message status ticker bug",
+      "Chat - Fix start chat conversation from contacts page",
+      "Chat - Fix messages status as read",
+      "Chat - Fix audio notifications on muted chat groups",
+      "Chat - Fix loading when scroll up conversation"
+    ]
+  },
+  {
+    "releaseName": "1.0.33",
+    "releaseDate": "2021-08-16",
+    "features": [],
+    "fixes": [
+      "Projects - Fix Unable to Change Due Date",
+      "Projects - Fix custom queries filter subtasks",
+      "Vault - Fix bug Video Won't Attach",
+      "Projects - Fix show Completed Tasks function",
+      "Profile - Fix not able to sort the tags items",
+      "Login - Fix new account registration issues",
+      "Projects - Fix max length task title area"
+    ]
+  },
+  {
+    "releaseName": "1.0.34",
+    "releaseDate": "2021-08-23",
+    "features": [],
+    "refactors": ["Notifications - Notifications layout refactor"],
+    "fixes": [
+      "Profile - Fix subscriber Locked Out and Unable to Renew",
+      "Profile - Fix dashboard blank on upgrade",
+      "Conference - Fix recording not working",
+      "Login - Fix the custom event GA analytics",
+      "Projects - Fix order global alert"
+    ]
+  },
+  {
+    "releaseName": "1.0.35",
+    "releaseDate": "2021-08-30",
+    "features": [],
+    "refactors": ["Desktop App - Screen recorder refactor"],
+    "fixes": [
+      "Desktop App - Resume App if app is in system tray",
+      "Desktop App - Resume App if pc is in suspend",
+      "Contacts - Fix the view in contacts details",
+      "Contacts - Several responsive bugs in the mobile view across the system",
+      "Projects - Fix return function in a task activity",
+      "Profile - Fix cannot delete profiles",
+      "Groups - Fix button projects are not clickable",
+      "Projects - Fix mentions owner from reported bugs",
+      "Projects - Fix new comment when keydown enter",
+      "Profile - Load notifications properly when profile changes"
+    ]
+  },
+  {
+    "releaseName": "1.0.36",
+    "releaseDate": "2021-09-06",
+    "features": [
+      {
+        "title": "Contacts Auto Merge",
+        "description": "Implement a supervisor system to improve the contact system integration with the profiles in the system with the auto merge"
+      },
+      {
+        "title": "Contact Extention on Phone",
+        "description": "Allows to add an extension field in the contact phone inputs"
+      },
+      {
+        "title": "Project Storage",
+        "description": "Increase the storage limit in the upload of archives"
+      }
+    ],
+    "refactors": [],
+    "fixes": [
+      "Profile - Fix friendlist when remove member from organization",
+      "Desktop App - Resume App if app is in system tray",
+      "Desktop App - Resume App if pc is in suspend",
+      "Organization - Fix friendlist when a memeber is deleted from the organization and another one joins",
+      "Contact - Fix address view"
     ]
   },
   {
@@ -372,1026 +1095,303 @@
     ]
   },
   {
-    "releaseName": "1.0.36",
-    "releaseDate": "2021-09-06",
+    "releaseName": "1.0.38",
+    "releaseDate": "2021-09-20",
     "features": [
       {
-        "title": "Contacts Auto Merge",
-        "description": "Implement a supervisor system to improve the contact system integration with the profiles in the system with the auto merge"
+        "title": "Calendar Timezone",
+        "description": "Easier timezone picker in the event modal"
       },
       {
-        "title": "Contact Extention on Phone",
-        "description": "Allows to add an extension field in the contact phone inputs"
-      },
-      {
-        "title": "Project Storage",
-        "description": "Increase the storage limit in the upload of archives"
+        "title": "Calendar Event Reminder",
+        "description": "Event reminder sounds includes humanized voice to not miss any event"
       }
     ],
-    "refactors": [],
+    "refactors": ["Notes - Faster notes at first loading"],
     "fixes": [
-      "Profile - Fix friendlist when remove member from organization",
-      "Desktop App - Resume App if app is in system tray",
-      "Desktop App - Resume App if pc is in suspend",
-      "Organization - Fix friendlist when a memeber is deleted from the organization and another one joins",
-      "Contact - Fix address view"
+      "Notes - Contacts not showing from a shared note",
+      "Calendar - Event reminder notification not showing complete event title",
+      "Calendar - Not creating 15 minutes events"
     ]
   },
   {
-    "releaseName": "1.0.35",
-    "releaseDate": "2021-08-30",
-    "features": [],
-    "refactors": ["Desktop App - Screen recorder refactor"],
-    "fixes": [
-      "Desktop App - Resume App if app is in system tray",
-      "Desktop App - Resume App if pc is in suspend",
-      "Contacts - Fix the view in contacts details",
-      "Contacts - Several responsive bugs in the mobile view across the system",
-      "Projects - Fix return function in a task activity",
-      "Profile - Fix cannot delete profiles",
-      "Groups - Fix button projects are not clickable",
-      "Projects - Fix mentions owner from reported bugs",
-      "Projects - Fix new comment when keydown enter",
-      "Profile - Load notifications properly when profile changes"
-    ]
-  },
-  {
-    "releaseName": "1.0.34",
-    "releaseDate": "2021-08-23",
-    "features": [],
-    "refactors": ["Notifications - Notifications layout refactor"],
-    "fixes": [
-      "Profile - Fix subscriber Locked Out and Unable to Renew",
-      "Profile - Fix dashboard blank on upgrade",
-      "Conference - Fix recording not working",
-      "Login - Fix the custom event GA analytics",
-      "Projects - Fix order global alert"
-    ]
-  },
-  {
-    "releaseName": "1.0.33",
-    "releaseDate": "2021-08-16",
-    "features": [],
-    "fixes": [
-      "Projects - Fix Unable to Change Due Date",
-      "Projects - Fix custom queries filter subtasks",
-      "Vault - Fix bug Video Won't Attach",
-      "Projects - Fix show Completed Tasks function",
-      "Profile - Fix not able to sort the tags items",
-      "Login - Fix new account registration issues",
-      "Projects - Fix max length task title area"
-    ]
-  },
-  {
-    "releaseName": "1.0.32",
-    "releaseDate": "2021-08-09",
+    "releaseName": "1.0.39",
+    "releaseDate": "2021-09-27",
     "features": [
       {
-        "title": "Google Birthday Events",
-        "description": "Fetch birthday events from google calendars"
-      },
-      {
-        "title": "Chat Media With Text",
-        "description": "Send media with text message"
-      },
-      {
-        "title": "Played Audio Status",
-        "description": "New audio message status 'played' on chat"
-      },
-      {
-        "title": "Attachments Page",
-        "description": "New attachment list page of chat conversation"
+        "title": "Customized Menu Colors",
+        "description": "Customize Zellim menu and search bar colors in profile settings"
       }
     ],
-    "fixes": [
-      "Chat - Fix open chat from contacts",
-      "Profile - Fix bug modal upgrade plan",
-      "Profile - Fix bug active plan",
-      "Profile - Fix label billing free",
-      "Chat - Fix audio message status ticker bug",
-      "Chat - Fix start chat conversation from contacts page",
-      "Chat - Fix messages status as read",
-      "Chat - Fix audio notifications on muted chat groups",
-      "Chat - Fix loading when scroll up conversation"
-    ]
-  },
-  {
-    "releaseName": "1.0.31",
-    "releaseDate": "2021-08-02",
-    "features": [],
-    "fixes": [
-      "Profile - Fix logout when invite a Organization Profile in the contact",
-      "Calendar - Fixed Cron Job in calendar events"
-    ]
-  },
-  {
-    "releaseName": "1.0.30",
-    "releaseDate": "2021-07-26",
-    "features": [],
-    "refactors": [
-      "Chat - Scroll refactor",
-      "Chat - Do not disturb alerts refactor",
-      "Notifications - Refactor of notifications count"
-    ],
-    "fixes": [
-      "Chat - Fix messages status",
-      "Chat - Fix input focus when opening a conversation",
-      "Contacts - Fix the loader in the import contacts message",
-      "Calendar - Fix the holidays view",
-      "Calendar - Assign events to the schedules in the conference tab",
-      "Calendar - Fix data picker in the event modal",
-      "Projects - Fix setting event on mentions task",
-      "Projects - Fix duplicate task ID in the project",
-      "Chat - Fix mentions tasks",
-      "Chat - Fix mentions user",
-      "Projects - Fix project permissions",
-      "Projects - Fix project list view optimize",
-      "Profile - Url validation on social media information",
-      "Profile - Fix bug when saving phone number",
-      "Chat - Fix message status"
-    ]
-  },
-  {
-    "releaseName": "1.0.29",
-    "releaseDate": "2021-07-19",
-    "features": [
-      {
-        "title": "Lock Voice Channel",
-        "description": "Voice channel lock feature to make a private conversation in a channel"
-      }
-    ],
-    "refactors": [
-      "Chat - Adjust record layout",
-      "Chat - Changed audio message status layout"
-    ],
-    "fixes": [
-      "Projects - Fix manual timesheet entry error",
-      "Vault - Fix attachment in Chat",
-      "Vault - Fix Vault does not unlock when I use the QR reader",
-      "Chat - Infinite loading when don't have recents list",
-      "Chat - Fixed close chat when change profile or remove recent",
-      "Chat - Input focus when open conversation",
-      "Chat - Unable to read message in groups",
-      "Chat - Fix search history duplication",
-      "Chat - Fixed bug when accepting connection in chat"
-    ]
-  },
-  {
-    "releaseName": "1.0.28",
-    "releaseDate": "2021-07-12",
-    "features": [
-      {
-        "title": "Improved Chat Search",
-        "description": "Improved chat search engine to search messages and conversations"
-      },
-      {
-        "title": "Chat Search History",
-        "description": "Save the words searched on chat"
-      },
-      {
-        "title": "Profile Info",
-        "description": "New profile info shown in the profiles contacts"
-      },
-      {
-        "title": "Embed Widget",
-        "description": "Dashboard Embedded Widget Improvements"
-      }
-    ],
-    "fixes": [
-      "Desktop App - Fix chat desktop bridge navigate",
-      "Profile - Fix alpha colors from color picker"
-    ]
-  },
-  {
-    "releaseName": "1.0.27",
-    "releaseDate": "2021-07-05",
-    "features": [
-      {
-        "title": "Highlight Search Results",
-        "description": "Highlight on search results word on chat"
-      },
-      {
-        "title": "Calendar Reminders",
-        "description": "Set default reminders to all Zellim events"
-      },
-      {
-        "title": "Events Reminder Toaster",
-        "description": "Toaster in the event's reminders, that allows you to get a visual notice that the event is near."
-      },
-      {
-        "title": "One Click Select",
-        "description": "Implement one click select in the mini calendar view"
-      }
-    ],
-    "refactors": ["Chat - Refactor of the approach of archive conversation"],
-    "fixes": [
-      "Login - Fix refactor ip location service",
-      "Projects - Fix upgrade account bug",
-      "Profile - Fix logic expired to user",
-      "Projects - Fix flicks on tree view projects",
-      "Projects - Fix update store when leaving project",
-      "Profile - Fix bug when saving birthday date",
-      "Calendar - Fixed rendering recurrent events after modified",
-      "Contacts - Fixed searching all profiles using special characters"
-    ]
-  },
-  {
-    "releaseName": "1.0.26",
-    "releaseDate": "2021-06-28",
-    "features": [
-      {
-        "title": "Voice Channel Invitation",
-        "description": "New chat feature to invite someone to join a channel"
-      },
-      {
-        "title": "Click To Go To Original",
-        "description": "Click on replied chat message goes to the original message"
-      },
-      {
-        "title": "Calendar Event Handle",
-        "description": "Implement an automated system to handle the events when multiple events are in the same time slot as busy-slots"
-      },
-      {
-        "title": "Chat Validation",
-        "description": "Validation of conversation starts with someone that isn’t your connection yet"
-      }
-    ],
-    "refactors": ["Login - Refactor signup page"],
-    "fixes": [
-      "Calendar - Fix explaining text to link a contact in the event model",
-      "Calendar - Fixed calendar public not showing booked appointments",
-      "Projects - Fix optimize custom queries projects",
-      "Profile - Fix referral logic on plan",
-      "Projects - Fix plan to coupon 100%"
-    ]
-  },
-  {
-    "releaseName": "1.0.25",
-    "releaseDate": "2021-06-21",
-    "features": [
-      {
-        "title": "Presentation Password",
-        "description": "Show and hide password presentation card"
-      },
-      {
-        "title": "Chat Group Import",
-        "description": "Possibility to create a chat group importing members from contact groups"
-      },
-      {
-        "title": "Automatic Updates on Chat",
-        "description": "When project changes, the chat will change automatically"
-      },
-      {
-        "title": "Automatic Add Group on Chat",
-        "description": "When adding a new group to project, the group will be added to chat automatically"
-      }
-    ],
-    "refactors": [
-      "Chat - Recents list virtual scroll pagination",
-      "Profile - Refactor color picker"
-    ],
-    "fixes": [
-      "Profile - Fixed a bug that shows wrong profile data when you change the profile in another tab",
-      "Chat - Reviewed all chat counters",
-      "Chat - Reviewed all chat scrolls",
-      "Projects - Fix Custom Queries don't show subtasks",
-      "Projects - Fix assigning someone in a subtask",
-      "Projects - Fix profile wizard",
-      "Chat - Fix chat context menu more options",
-      "Projects - Fix optimize requests project view",
-      "Projects - Fix filter projects from store"
-    ]
-  },
-  {
-    "releaseName": "1.0.24",
-    "releaseDate": "2021-06-14",
-    "features": [
-      {
-        "title": "Login Recaptcha",
-        "description": "New recaptcha service"
-      },
-      {
-        "title": "Automatic Updates on Chat",
-        "description": "When group changes, the chat will change automatically"
-      }
-    ],
-    "refactors": [
-      "Chat - Complete chat structural refactor for a better web and mobile performance, with new layout especially for project voice and messages channels",
-      "Desktop App - Refactor on online detector",
-      "Profile - Refactor ranking component",
-      "Chat/Group - Remove plugin of group"
-    ],
-    "fixes": [
-      "Desktop App - Create presentation window",
-      "Desktop App - Navigation chat on push notification",
-      "Contacts - Fix input Email/Phone",
-      "Projects - Fix list disappear on project",
-      "Login - Fix human key from captcha"
-    ]
-  },
-  {
-    "releaseName": "1.0.23",
-    "releaseDate": "2021-06-07",
-    "features": [],
-    "refactors": [
-      "Wizard - Refactor wizard profile",
-      "Chat - Add project name to group on chat"
-    ],
-    "fixes": [
-      "Conference - Fix correct Grammar on conference",
-      "Profile - Fix general fixes about global alert",
-      "Chat - Fixed messages forward",
-      "Conferencing - Fix: Presentation cards schedule",
-      "Conferencing - Fix: presentation history icons"
-    ]
-  },
-  {
-    "releaseName": "1.0.22",
-    "releaseDate": "2021-05-31",
-    "features": [
-      {
-        "title": "Presentation Recording",
-        "description": "Recording option on Presentation"
-      },
-      {
-        "title": "Presentation End Page",
-        "description": "Presentation end Presentation Page"
-      },
-      {
-        "title": "Global Alert",
-        "description": "New global alert service"
-      }
-    ],
-    "fixes": [
-      "Conferencing - Recent presentation does not appear in History",
-      "Profile - Fix profile menu on tablet device",
-      "Projects - Fix validate apply coupon"
-    ]
-  },
-  {
-    "releaseName": "1.0.21",
-    "releaseDate": "2021-05-24",
-    "features": [
-      {
-        "title": "Project Groups",
-        "description": "Working with users from group to project"
-      }
-    ],
-    "fixes": [
-      "Projects - Fix different Headers from Tasks",
-      "Conferencing - Bug when editing a next meeting",
-      "Conferencing - Fix Presentation and rooms dashboard widget",
-      "Conferencing - Fix on 'Waiting for the host' conference page",
-      "Conferencing - Running not appears in Presentation and Meetings"
-    ]
-  },
-  {
-    "releaseName": "1.0.20",
-    "releaseDate": "2021-05-17",
-    "features": [
-      {
-        "title": "Presentation Conference",
-        "description": "New webinar conference platform"
-      },
-      {
-        "title": "Presentation Dashboard",
-        "description": "Implements Presentation cards and History"
-      },
-      {
-        "title": "Payment Method",
-        "description": "New payment method and upgrade plan"
-      }
-    ],
-    "refactors": [
-      "Login - Refactor new profile",
-      "Login - Refactor new organization profile",
-      "Login - Refactor login page",
-      "Organization - Now users can leave an organization. We inserted a button on the organization page where you can do this action.",
-      "Organization - We changed the status buttons layout so now you have more actions like remove a user or revoke pending invitations, with a mouse click"
-    ],
-    "fixes": [
-      "Profile - Fix new profile building problem",
-      "Profile - Fix general fixes about upgrade plan",
-      "Chat - Removed private user information for the chat information screen",
-      "Chat - Fix chat group URI link",
-      "Chat - Fix edit a message with a mention",
-      "Chat - Join a group by link window layout improvement",
-      "Mentions - Automatically close the mention window when there is no match",
-      "Mentions - Don’t open the mention window when the character before the @ or # is not an empty space",
-      "Profile - Fixed bug where changing to a deleted profile might prevent log in"
-    ]
-  },
-  {
-    "releaseName": "1.0.19",
-    "releaseDate": "2021-05-10",
-    "features": [
-      {
-        "title": "Contacts Architecture",
-        "description": "New contacts architecture to handle a greater number of contacts, better merging experience and speed up the search."
-      },
-      {
-        "title": "Contact Action Buttons",
-        "description": "Contacts - Add speed actions buttons into the contact view"
-      }
-    ],
-    "fixes": [
-      "Desktop App - User can open a room without being a moderator",
-      "Projects - Fix custom query when a query disappears from list",
-      "Projects - Fix internal server error creating project without name",
-      "Projects - Fix included own permissions",
-      "Projects - Fix mention does not work on sub-subtask",
-      "Projects - Fix limit subtasks to only one level",
-      "Projects - Fix search by Task Number",
-      "Projects - Fix text is not changing to black automatically"
-    ]
-  },
-  {
-    "releaseName": "1.0.18",
-    "releaseDate": "2021-05-03",
-    "features": [],
-    "fixes": ["Over 50+ small and medium bugs resolved"]
-  },
-  {
-    "releaseName": "1.0.17",
-    "releaseDate": "2021-04-26",
-    "features": [
-      {
-        "title": "Chad Admin Rules",
-        "description": "Now admins can manage rules to the chat groups"
-      },
-      {
-        "title": "Calendar Alert",
-        "description": "Launch an alert message to invite a group into a google event"
-      },
-      {
-        "title": "Calendar Delete",
-        "description": "Prevent to delete default calendar"
-      }
-    ],
+    "refactors": ["Contact - faster and accurate search in the contact search"],
     "fixes": []
   },
   {
-    "releaseName": "1.0.16",
-    "releaseDate": "2021-04-23",
+    "releaseName": "1.0.40",
+    "releaseDate": "2021-11-08",
     "features": [
       {
-        "title": "Video Guides",
-        "description": "Inserted video guides for the features: Organization and Chat"
+        "title": "Project Custom Column",
+        "description": "Now you can create additional columns in your project according to your needs"
+      },
+      {
+        "title": "Task Recurrence",
+        "description": "New feature to automatilly create tasks according to defined rules"
+      },
+      {
+        "title": "Task Checklist Reorder",
+        "description": "With this new feature, you can drag and drop the checklist items of the task to reorder them"
+      },
+      {
+        "title": "Project columns reorder and visibility on tasks list",
+        "description": "Now you can reorder, resize and change visibility of the columns in the list and tree views of a project"
+      },
+      {
+        "title": "New task history for attachments and comments",
+        "description": "New history for attached and deleted files and deleted comments"
+      },
+      {
+        "title": "Zellim desktop 2.0.1",
+        "description": "New version of Zellim desktop with new workspaces and personalized services"
+      },
+      {
+        "title": "Zellim desktop password lock validator",
+        "description": "add password validator to lock the app"
+      },
+      {
+        "title": "Project Folders Changes",
+        "description": "Working with group socket to change folders inside project"
       }
     ],
+    "refactors": [
+      "Complete projects feature refactor. All functions and routes was changed to a better performance",
+      "New layout throughout projects feature for better user experience",
+      "Complete tasks and projects socket refactor",
+      "Tasks and projects dashboard widgets refactor",
+      "Tracker screenshots component",
+      "Zellim desktop - service bar for better navigation",
+      "Zellim desktop - Add password lock validator",
+      "Add approach to load data properly when use inside Zellim App"
+    ],
     "fixes": [
-      "Fixed search error feedback",
-      "Added Save button in notes",
-      "Fixed saving phone and email provile when change public toggle",
-      "Fixed inbox when there is no linked email account",
-      "Fixed calendar event invite notification",
-      "Fixed Add time manually on tasks",
-      "Removed user of organization appears as a deleted on tasks list",
-      "Fixed add addresses in contacts",
-      "Fixed error on Groups filter",
-      "Fixed inbox email delete",
-      "Added websocket for new and updated messages on inbox",
-      "Fixed attach files error",
-      "Calendar events from apple imported with wrong data",
-      "Deleting reccuring events not delete all the reccurring events",
-      "Linked guests throwing a validation error",
-      "Phone validation issues, when verifying a phone in profile settings",
-      "Not showing an event created in google from zellim",
-      "Fixed search on projets",
-      "Task due soon refactor",
-      "Fixed ulpoad files on Vault",
-      "Fixed notification on organization creation",
-      "Fixed moving task folder",
-      "Fixed connect button on conttacts",
-      "Fixed rename vault files",
+      "Allow exit and delete an organization from anothers profiles",
+      "Block bulk invites to all contact lists",
+      "Parse all the contacts and profiles names to Capitalize",
+      "Email invite showing 30 days trial",
+      "Missing contacts in groups",
+      "Wrong icons on contact list view",
+      "Mismatch between groups and profile tags",
+      "Apointment slots edition from dashboard widget",
+      "Email input not allowing the use of alias, when creating an account or login into de zellim system",
+      "Filter appointment slots view by calendar",
+      "Bug in the event's date picker not allowing select customized dates",
+      "Increase the limit storage into the system on the premiun accounts",
+      "Fixed the frined request from non existent users",
+      "Fixed several view problems in the apple app",
+      "Scroll not working in the profile setting on the mobile app",
+      "Missing chat channels in the mobile app",
+      "Organization not allowing to resend invites",
+      "Error when trying to export an empty csv",
+      "Fixed the activity levels Colors in tracker",
+      "Fixed handle idle time in front",
+      "Zellim desktop - Chat screenshare popout window"
+    ]
+  },
+  {
+    "releaseName": "1.0.41",
+    "releaseDate": "2021-11-15",
+    "features": [
+      {
+        "title": "Accepting code block on chat",
+        "description": "Now you can send code blocks on chat messages"
+      }
+    ],
+    "refactors": [
+      "Video converter improvements",
+      "Application boostrap loading time/size improved by 30%",
+      "Every project folder creation now has name and color mandatory"
+    ],
+    "fixes": [
+      "General fixes on tasks and project socket",
+      "Subtask background and add new subtask title fix",
+      "Delete task fix",
+      "Fix duplicated history and comments",
+      "Open and close subtasks visual bug fix",
+      "Fix on recurrence keep options",
+      "Custom status add and change fix",
+      "General fixes on task upload files",
+      "General fixes on projects assign",
+      "Fix saving project configuration",
+      "General fixes on bug reports",
+      "Delete project fix",
+      "Fix add new task in kanban view",
+      "Fix when send a chat audio message",
+      "Fix incorrect type when sending an emoji on chat",
+      "Return focus to input when insertin an emoji in the text message",
+      "Fix task recurrence keep attachments and comments",
+      "Fix socket of project removal",
+      "General fixes and validations when ty to reproduce video in Safari's browser"
+    ]
+  },
+  {
+    "releaseName": "1.0.43",
+    "releaseDate": "2021-11-29",
+    "features": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "refactors": [""],
+    "fixes": [
+      "Fix Error Message on Deleting Member",
+      "Fix Error mesages in contact without toaster",
+      "Fix apopointment slot card",
+      "Fix Share appopintment slot",
+      "Fix Calendario fica fazendo requisições sem parar"
+    ]
+  },
+  {
+    "releaseName": "1.0.42",
+    "releaseDate": "2021-11-22",
+    "features": [
+      {
+        "title": "",
+        "description": ""
+      }
+    ],
+    "refactors": [""],
+    "fixes": [
+      "Fix Contact - Visual error in contact list",
+      "Fix Webnar - its not possible to create account when set email with empty chars in the end or begin",
+      "Fix Webnar - show correct message when get error",
+      "Fix Webnar - its not validate if the informed email is available",
+      "Fix Bug: Calender View Error",
+      "Fix Organization - Spelling Error",
+      "Fix Chat - Click on replied message goes to the original message",
       ""
-    ],
-    "workingOn": [
-      {
-        "title": "Chat Refactor",
-        "description": "We are working on a complete chat refactor to a better performance on web and mobile, implementing a complete search function and layout changes."
-      },
-      {
-        "title": "New payment gateway",
-        "description": "We are working on a new payment platform to better control plans and take more control over the payments."
-      }
     ]
   },
   {
-    "releaseName": "1.0.15",
-    "releaseDate": "2021-04-19",
-    "features": [
-      {
-        "title": "New Help Center",
-        "description": "New centralized help center with all Video Tutorials, Live Chat, and Bug Reports"
-      }
-    ],
-    "fixes": [
-      "Fix improve the inputs validations in a user registration",
-      "Improvements on notification",
-      "Fix login problems with mobile",
-      "Fix vault plugin on groups",
-      "Add profile to contact in conference",
-      "Fix the conference contact creation",
-      "Add order to video playlists",
-      "Fixed add a file inside the content of an email",
-      "Fixed send to trash inbox",
-      "Inbox layout adjustments",
-      "Open conference sending parameters to auto login",
-      "Screen Record tests and improovements",
-      "Inserted an open button on Bookings and Appointment Slots",
-      "Fixed login and signup input fields",
-      "Fixed vault auto lock",
-      "Fix Delete messages on Inbox",
-      "Added an alert when destinatary isn't selected",
-      "Improved component to select a contact or add a new email",
-      "Fix Connected accounts is in infinite loop",
-      "Fix Can't sync outlook",
-      "Add bulk actions in email list and email view",
-      "Add icon to show when the email have a draft"
-    ],
-    "workingOn": [
-      {
-        "title": "Chat Refactor",
-        "description": "We are working on a complete chat refactor to a better performance on web and mobile, implementing a complete search function and layout changes."
-      },
-      {
-        "title": "New payment gateway",
-        "description": "We are working on a new payment platform to better control plans and take more control over the payments."
-      },
-      {
-        "title": "New Zellim plans and Limits",
-        "description": "We are refactoring all system plans and limits."
-      }
-    ]
-  },
-  {
-    "releaseName": "1.0.14",
-    "releaseDate": "2021-04-12",
-    "features": [
-      {
-        "title": "Zellim Inbox",
-        "description": "It's launched the MVP of our email reader. With Zellim Inbox you can access all your email accounts in one place."
-      },
-      {
-        "title": "Native Voice Channel",
-        "description": "Native voice channel communication in our Zellim Chat mobile app"
-      },
-      {
-        "title": "Push Notifications",
-        "description": "Push notifications for Zellim mobile app"
-      },
-      {
-        "title": "Video Guides",
-        "description": "Inserted video guides for the features: Projects"
-      }
-    ],
-    "fixes": [
-      "Conference Branding layout adjustments",
-      "Fix wizard room bugs",
-      "Enabled 'Start Conference' buton in conference card when the room is opened",
-      "Impooved conference join from web and mobile",
-      "Corrected login request on join conference from Brave, Safari and Incognito browsers",
-      "Corrected Help Center position issue",
-      "Added button to close the Help Center modal",
-      "Close Help Center when click outside the modal",
-      "Fix task duplication error",
-      "Fix task losing description contente",
-      "Fix tripplicating attachments on tasks",
-      "Fix wording groups to folder on add new task",
-      "Removed phone when creating an organization profile",
-      "Recordind UX adjustments",
-      "Fix contact verification in login",
-      "Fix bugs on profile settiing permissions",
-      "Validation when creating groups"
-    ],
-    "workingOn": [
-      {
-        "title": "Chat Refactor",
-        "description": "We are working on a complete chat refactor to a better performance on web and mobile, implementing a complete search function and layout changes."
-      },
-      {
-        "title": "New payment gateway",
-        "description": "We are working on a new payment platform to better control plans and take more control over the payments."
-      }
-    ]
-  },
-  {
-    "releaseName": "1.0.13",
-    "releaseDate": "2021-04-05",
-    "features": [
-      {
-        "title": "Conference Branding",
-        "description": "Soon you'll be able to add customized logo and background in all your conference rooms"
-      },
-      {
-        "title": "Video Guides",
-        "description": "Inserted video guides for the features: Calendar and Contacts"
-      }
-    ],
-    "fixes": [
-      "Fix notes pin when shared with me",
-      "Fix populated tags when updated",
-      "Fix when remove comment and remove attachments on task modal",
-      "Fix instruction to create commentary included",
-      "Fix weird behavior on edit custom query name",
-      "Fix horizontal scroll on task header tabs",
-      "Fix hide edit options when edit embed view on task modal",
-      "Fix icon link on task modal",
-      "Fix multiples attachments on task modal",
-      "Fix alert screen persists after choosing the close option on task modal",
-      "Fix of bulk deleted profile",
-      "Fix of deleted tags",
-      "Tag logic improvements",
-      "Fix profile settings",
-      "Fix filter color tags",
-      "Fix pin tags",
-      "Fix accept friend invitation",
-      "Fix and remove empty contacts",
-      "Create routes to to detail playlist",
-      "Fix task duplicated without subtasks",
-      "Fix many selected contacts delete",
-      "Updated changelog of the version 10.0.12"
-    ],
-    "workingOn": [
-      {
-        "title": "Zellim Inbox",
-        "description": "Our email reader feature is coming soon!"
-      },
-      {
-        "title": "Chat Refactor",
-        "description": "We are working on a complete chat refactor to a better performance on web and mobile, implementing a complete search function and layout changes."
-      },
-      {
-        "title": "New payment gateway",
-        "description": "We are working on a new payment platform to better control plans and take more control over the payments."
-      }
-    ]
-  },
-  {
-    "releaseName": "1.0.12",
-    "releaseDate": "2021-03-29",
-    "features": [
-      {
-        "title": "Chat Appointment Slot Unavailable",
-        "description": "Now you can set one or more slots in your appointment slots calendar as unavailable"
-      },
-      {
-        "title": "Screen Recorder",
-        "description": "We have a new feature to record your screen and save it locally, so you can use your record as you can."
-      },
-      {
-        "title": "Video Guides",
-        "description": "Inserted video guides for the features: Dashboard, Notes, Vault and Groups"
-      }
-    ],
-    "fixes": [
-      "Fixed creation of Groups from chat",
-      "Fix in group image edit",
-      "Improvements, implementation / refactoring of contacts",
-      "Fix in contact / profile settings",
-      "Removed Zendesk",
-      "Auto focus in password login input",
-      "Fix the conference history listing by the contact",
-      "Refactoring the cache of plans in the cockpit",
-      "Refactoring in creating contact from friendlist",
-      "Calendar and conference next meeting out of sync",
-      "Incorrect timezone in public slots",
-      "Wrong timezone in apple events",
-      "Miss spelled word in appointment slot email confirmation",
-      "Missing information in the event guests list notifications",
-      "Event invite email notifications that were not sending to group members",
-      "Calendar booking card overlapping when create a new booking",
-      "Appointment confirmation modal error overflow on booked list",
-      "Subscription modal in the appointment block was breaking the view",
-      "Confirmation event page in the appointment slot was breaking the view",
-      "Video guides layout adjustments",
-      "Fixed bug when you when you don't want to save a task",
-      "Note card updated when add/remove collaborator",
-      "Project task alert screen when selected close option"
-    ],
-    "workingOn": [
-      {
-        "title": "Zellim Inbox",
-        "description": "Our email reader feature is coming soon!"
-      },
-      {
-        "title": "Chat Refactor",
-        "description": "We are working on a complete chat refactor to a better performance on web and mobile, implementing a complete search function and layout changes."
-      },
-      {
-        "title": "New payment gateway",
-        "description": "We are working on a new payment platform to better control plans and take more control over the payments."
-      },
-      {
-        "title": "Conference Branding",
-        "description": "Soon you'll be able to add customized logo and background in all your conference rooms"
-      }
-    ]
-  },
-  {
-    "releaseName": "1.0.11",
-    "releaseDate": "2021-03-22",
-    "features": [
-      {
-        "title": "Contact Reference",
-        "description": "In aditional to the last week Contact Reference update, now you can reference an individual contact on an event. You can see all references of a contact in the contact details. You can also see all the meeting that each contact is part of, from the contact details."
-      }
-    ],
-    "fixes": [
-      "Removed the slot event line from calendar",
-      "Changed the view slot modal",
-      "Inserted info tooltip on Duration, Buffer and Minimum Schedule Notice fields in the calendar event modal",
-      "Changed the default value of Minimum Schedule Notice to 0",
-      "Changed the date and time input on calendar event modal",
-      "Updated the google place API",
-      "Removed the favorite icon in shared contacts with permission to view only",
-      "Search fixed in the Add Widget modal",
-      "Fixed adding groups error",
-      "Fixed second profile edit error",
-      "Fixed email invite on events",
-      "Updated apple contact import",
-      "Fixed notes deletion",
-      "Fixed notes search by tag",
-      "Fixed add task datepicker"
-    ],
-    "workingOn": [
-      {
-        "title": "Zellim Inbox",
-        "description": "Our email reader feature is coming soon!"
-      },
-      {
-        "title": "Chat Refactor",
-        "description": "We are working on a complete chat refactor to a better performance on web and mobile, implementing a complete search function and layout changes."
-      }
-    ]
-  },
-  {
-    "releaseName": "1.0.10",
-    "releaseDate": "2021-03-15",
-    "features": [
-      {
-        "title": "Contact Reference",
-        "description": "Now you can reference an individual contact on a note or task. You can see all references of a contact in the contact details. You can also see all the groups that each contact is part of, from the contact details."
-      },
-      {
-        "title": "Calendar Improvement",
-        "description": "Now you can cancel and reschedule appointment slots that have already been confirmed. It will email the guest(s) to confirm the new status of the event. Also, you can add a buffer time after each slot generated, to give you time to prepare between meetings."
-      }
-    ],
-    "fixes": [
-      "The alert when scheduling a slot into minimum scheduling time",
-      "Scheduled event discrepancy between calendar and conference",
-      "Scheduled meetings not sending invites to contacts",
-      "Correction on the referral reference",
-      "Many visual adjustments on calendar",
-      "Contact list change on update",
-      "Contact tags correction"
-    ],
-    "workingOn": [
-      {
-        "title": "Zellim Inbox",
-        "description": "Our email reader feature is coming soon!"
-      },
-      {
-        "title": "Contact Reference",
-        "description": "We are working on the contact reference for calendar events and the list of all conferences in which a contact attended."
-      },
-      {
-        "title": "Chat Refactor",
-        "description": "We are working on a complete chat refactor to a better performance on web and mobile, implementing a complete search function and layout changes."
-      }
-    ]
-  },
-  {
-    "releaseName": "1.0.9",
-    "releaseDate": "2021-03-08",
-    "features": [
-      {
-        "title": "Affiliate details",
-        "description": "Now users can see details about users created accounts by your affiliate link"
-      },
-      {
-        "title": "Organization Info - Member",
-        "description": "Now members can see information about the organization they belong to."
-      }
-    ],
-    "workingOn": [
-      {
-        "title": "",
-        "description": ""
-      }
-    ],
-    "fixes": [
-      "User changelog version not saving correctly on user-config",
-      "Logout user from other devices when leave from organization",
-      "Fixed: When user leave from organization not deleting your phone number."
-    ],
-    "refactors": [""]
-  },
-  {
-    "releaseName": "1.0.8",
-    "releaseDate": "2021-03-01",
-    "features": [
-      {
-        "title": "Contact when create account",
-        "description": "Now when users create one account we create a contact with your information on your self contact list"
-      }
-    ],
-    "workingOn": [
-      {
-        "title": "",
-        "description": ""
-      }
-    ],
-    "fixes": [
-      "Mobile notifications from module 'user'",
-      "Fixed: wrong plan informations and limits.",
-      "Fixed: Emails sent from marketing not reaching users."
-    ],
-    "refactors": [""]
-  },
-  {
-    "releaseName": "1.0.7",
-    "releaseDate": "2021-02-22",
-    "features": [
-      {
-        "title": "Zellim Cockpit - Organization",
-        "description": "Created a new page on cockpit to manage system organization"
-      }
-    ],
-    "workingOn": [
-      {
-        "title": "",
-        "description": ""
-      }
-    ],
-    "fixes": [
-      "Remove vault recording upload limit",
-      "Fixed: integration scope (google)",
-      "Fixed: user search when tried to search user by email"
-    ],
-    "refactors": [""]
-  },
-  {
-    "releaseName": "1.0.6",
-    "releaseDate": "2021-02-15",
-    "features": [
-      {
-        "title": "Organization",
-        "description": "Now organization can be deleted."
-      }
-    ],
-    "workingOn": [
-      {
-        "title": "",
-        "description": ""
-      }
-    ],
-    "fixes": [
-      "Fixed: organization plans limits and feature availability",
-      "Fixed: leave button of organization. When user tried leave from organization now we remove all user informations from organization.",
-      "Fixed: resend email when user try create account"
-    ],
-    "refactors": ["Create user account email template."]
-  },
-  {
-    "releaseName": "1.0.5",
-    "releaseDate": "2021-02-08",
-    "features": [
-      {
-        "title": "Zellim Cockpit - Affiliate",
-        "description": "Create new page on cockpit to manage affiliates"
-      }
-    ],
-    "workingOn": [
-      {
-        "title": "Zellim Cockpit - Members Report",
-        "description": "Creating page to export all members into CSV"
-      }
-    ],
-    "fixes": [
-      "Fixed: vault can't get folders",
-      "Fixed: vault storage limit",
-      "Fixed: vault security token strategy"
-    ],
-    "refactors": ["Changed organization invite email"]
-  },
-  {
-    "releaseName": "1.0.4",
-    "releaseDate": "2021-02-01",
+    "releaseName": "1.0.44",
+    "releaseDate": "2021-12-06",
     "features": [
       {
         "title": "",
         "description": ""
       }
     ],
-    "workingOn": [
-      {
-        "title": "Plans",
-        "description": "Improving plan limits and features."
-      }
-    ],
+    "refactors": [""],
     "fixes": [
-      "Organization profiles showing on user search",
-      "Update affiliate reference when affiliated user upgrade plan",
-      "Different plan options to affiliated user",
-      "Fixed: calendar default colors when user create new profile"
-    ],
-    "refactors": ["Contact import from CSV"]
+      "Fix Calendar events not showing the share button",
+      "Fix Shared Slot calendar not showing on the screen",
+      "Fix Tags not showing on calendar slots",
+      "Fix Calendar Slots not showing after user change tab",
+      "Fix Calendar Shared Slot not showing correctly owner"
+    ]
   },
   {
-    "releaseName": "1.0.3",
-    "releaseDate": "2021-01-25",
+    "releaseName": "1.0.45",
+    "releaseDate": "2021-12-13",
     "features": [
-      {
-        "title": "Affialate",
-        "description": "Created affiliate system."
-      }
-    ],
-    "workingOn": [
       {
         "title": "",
         "description": ""
       }
     ],
+    "refactors": [""],
     "fixes": [
-      "Fixed: Voice channel not working with new chat groups.",
-      "Fixed: Permissions validation nto working on project",
-      "Fixed: Remove profile history from project",
-      "Fixed: Description attachments not working on tasks"
-    ],
-    "refactors": [""]
+      "Fix Wrong load implementation",
+      "Fix Cannot Change Order in List",
+      "Fix Calendar issue",
+      "Fix create organization profile bug",
+      "Fix custom query status is not working"
+    ]
   },
   {
-    "releaseName": "1.0.2",
-    "releaseDate": "2021-01-18",
+    "releaseName": "1.0.46",
+    "releaseDate": "2021-12-20",
     "features": [
       {
-        "title": "New socket system",
-        "description": "Created new socket system to improve zellim performance"
-      }
-    ],
-    "workingOn": [
+        "title": "Projects Automation",
+        "description": "Now our project managment system has the power of automations, where users can create automated actions when some specific update is made"
+      },
       {
-        "title": "",
-        "description": ""
+        "title": "Support Board",
+        "description": "Automatically created user and login on Support Board system"
       }
     ],
+    "refactors": ["Voice channel version update"],
     "fixes": [
-      "Fixed: users can't accept friend invitation",
-      "Fixed: chat groups not deleting when delete project",
-      "Fixed: Remove task parent reference when move task"
+      "Fix Event guest error",
+      "Fix Critical: Not able to complete profile, see video",
+      "Fix calendar pick bug",
+      "Fix Notes layout fixes",
+      "Fix Error when I try to share one note",
+      "Fixed voice channel screen share loop",
+      "Fixed screen share popout on voice channel",
+      "Close popout fix",
+      "Live Chat accounts for every user"
+    ]
+  },
+  {
+    "releaseName": "1.0.47",
+    "releaseDate": "2021-12-28",
+    "features": [
+      {
+        "title": "Light Theme",
+        "description": "New we have a light theme, where the white is the base color"
+      },
+      {
+        "title": "User status on contacts",
+        "description": "Now you can see a user status in the contacts list"
+      },
+      {
+        "title": "To do list drag and drop",
+        "description": "Now you can reorder your to do list dragging and dropping items"
+      }
     ],
     "refactors": [
-      "Project notifications when add new members",
-      "Project permission notifications"
+      "Complete color refactor on lateral menu bars",
+      "Project layout refactor, where the margins was removed to a better space and integration with the menu bars and a better use of space by the user",
+      "Calendar layout refactor",
+      "Booking and Appointment slots layout adjustments and top border color correction",
+      "Dashboard grid system refactor and improvement",
+      "Dashboard calculator layout refactor",
+      "Refactor on chat button and voice channel controls to a better integration with fullscreen modals",
+      "Notes layout refactor",
+      "Vault layout refactor",
+      "Conference page tables layout refactor",
+      "Refactor and update the styles framework to a better performance"
+    ],
+    "fixes": [
+      "Fix Calendar - wrong dates",
+      "Fix Appointment slot empty after delete all events",
+      "Fix Appointment Location wrong",
+      "Fix Change profile downgrade loop",
+      "Removed min of 3 characters on general search",
+      "Fixed 'Show only first name' on chat messages",
+      "Fixed groups search when adding a new chat group",
+      "Fixed projects list subtask margins",
+      "Dashboard Calendar widget show wrong events"
     ]
   },
   {
-    "releaseName": "1.0.1",
-    "releaseDate": "2021-01-11",
+    "releaseName": "1.0.48",
+    "releaseDate": "2022-01-13",
     "features": [
       {
-        "title": "Register flow",
-        "description": "Now to create a new account, first needs to verify the email."
-      }
-    ],
-    "workingOn": [
+        "title": "White-label concept",
+        "description": "Now we have some features that allow the addition of new themes and some new styles to different themes variation"
+      },
       {
-        "title": "",
-        "description": ""
+        "title": "Internationalization concept",
+        "description": "We create some features that allow the internationalization of the entire system. With this we will be able to go to different countries"
       }
-    ],
-    "fixes": [
-      "Fixed: Users not sending notifications in real-time",
-      "Fixed: Project not saving task assigns",
-      "Fixed: User can't join on voice-channel."
-    ],
-    "refactors": [""]
-  },
-  {
-    "releaseName": "1.0.0",
-    "releaseDate": "2021-01-04",
-    "features": [
-      {
-        "title": "Organization invite by email",
-        "description": "Now organization administrator can invite to your organization by email"
-      }
-    ],
-    "workingOn": [
-      {
-        "title": "",
-        "description": ""
-      }
-    ],
-    "fixes": [
-      "Fixed: user search can't use case insensitive",
-      "Fixed: organization profiles were creating without timezone"
     ],
     "refactors": [
-      "Profile History Flow",
-      "Project and task notificatiosn cron when mentioned"
-    ]
+      "Several improvements on theme loading to improve the application bundle size"
+    ],
+    "fixes": ["Fix Wizard to add new tutorial video"]
   }
 ]
