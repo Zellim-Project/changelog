@@ -1168,8 +1168,12 @@
     "releaseDate": "2021-03-08",
     "features": [
       {
-        "title": "",
-        "description": ""
+        "title": "Affiliate details",
+        "description": "Now users can see details about users created accounts by your affiliate link"
+      },
+      {
+        "title": "Organization Info - Member",
+        "description": "Now members can see information about the organization they belong to."
       }
     ],
     "workingOn": [
@@ -1178,7 +1182,11 @@
         "description": ""
       }
     ],
-    "fixes": [""],
+    "fixes": [
+      "User changelog version not saving correctly on user-config",
+      "Logout user from other devices when leave from organization",
+      "Fixed: When user leave from organization not deleting your phone number."
+    ],
     "refactors": [""]
   },
   "1.0.8": {
@@ -1186,8 +1194,8 @@
     "releaseDate": "2021-03-01",
     "features": [
       {
-        "title": "",
-        "description": ""
+        "title": "Contact when create account",
+        "description": "Now when users create one account we create a contact with your information on your self contact list"
       }
     ],
     "workingOn": [
@@ -1196,7 +1204,11 @@
         "description": ""
       }
     ],
-    "fixes": [""],
+    "fixes": [
+      "Mobile notifications from module 'user'",
+      "Fixed: wrong plan informations and limits.",
+      "Fixed: Emails sent from marketing not reaching users."
+    ],
     "refactors": [""]
   },
   "1.0.7": {
@@ -1204,8 +1216,8 @@
     "releaseDate": "2021-02-22",
     "features": [
       {
-        "title": "",
-        "description": ""
+        "title": "Zellim Cockpit - Organization",
+        "description": "Created a new page on cockpit to manage system organization"
       }
     ],
     "workingOn": [
@@ -1214,7 +1226,11 @@
         "description": ""
       }
     ],
-    "fixes": [""],
+    "fixes": [
+      "Remove vault recording upload limit",
+      "Fixed: integration scope (google)",
+      "Fixed: user search when tried to search user by email"
+    ],
     "refactors": [""]
   },
   "1.0.6": {
@@ -1222,8 +1238,8 @@
     "releaseDate": "2021-02-15",
     "features": [
       {
-        "title": "",
-        "description": ""
+        "title": "Organization",
+        "description": "Now organization can be deleted."
       }
     ],
     "workingOn": [
@@ -1232,26 +1248,34 @@
         "description": ""
       }
     ],
-    "fixes": [""],
-    "refactors": [""]
+    "fixes": [
+      "Fixed: organization plans limits and feature availability",
+      "Fixed: leave button of organization. When user tried leave from organization now we remove all user informations from organization.",
+      "Fixed: resend email when user try create account"
+    ],
+    "refactors": ["Create user account email template."]
   },
   "1.0.5": {
     "releaseName": "1.0.5",
     "releaseDate": "2021-02-08",
     "features": [
       {
-        "title": "",
-        "description": ""
+        "title": "Zellim Cockpit - Affiliate",
+        "description": "Create new page on cockpit to manage affiliates"
       }
     ],
     "workingOn": [
       {
-        "title": "",
-        "description": ""
+        "title": "Zellim Cockpit - Members Report",
+        "description": "Creating page to export all members into CSV"
       }
     ],
-    "fixes": [""],
-    "refactors": [""]
+    "fixes": [
+      "Fixed: vault can't get folders",
+      "Fixed: vault storage limit",
+      "Fixed: vault security token strategy"
+    ],
+    "refactors": ["Changed organization invite email"]
   },
   "1.0.4": {
     "releaseName": "1.0.4",
@@ -1264,20 +1288,25 @@
     ],
     "workingOn": [
       {
-        "title": "",
-        "description": ""
+        "title": "Plans",
+        "description": "Improving plan limits and features."
       }
     ],
-    "fixes": [""],
-    "refactors": [""]
+    "fixes": [
+      "Organization profiles showing on user search",
+      "Update affiliate reference when affiliated user upgrade plan",
+      "Different plan options to affiliated user",
+      "Fixed: calendar default colors when user create new profile"
+    ],
+    "refactors": ["Contact import from CSV"]
   },
   "1.0.3": {
     "releaseName": "1.0.3",
     "releaseDate": "2021-01-25",
     "features": [
       {
-        "title": "",
-        "description": ""
+        "title": "Affialate",
+        "description": "Created affiliate system."
       }
     ],
     "workingOn": [
@@ -1286,7 +1315,12 @@
         "description": ""
       }
     ],
-    "fixes": [""],
+    "fixes": [
+      "Fixed: Voice channel not working with new chat groups.",
+      "Fixed: Permissions validation nto working on project",
+      "Fixed: Remove profile history from project",
+      "Fixed: Description attachments not working on tasks"
+    ],
     "refactors": [""]
   },
   "1.0.2": {
@@ -1294,8 +1328,8 @@
     "releaseDate": "2021-01-18",
     "features": [
       {
-        "title": "",
-        "description": ""
+        "title": "New socket system",
+        "description": "Created new socket system to improve zellim performance"
       }
     ],
     "workingOn": [
@@ -1304,16 +1338,23 @@
         "description": ""
       }
     ],
-    "fixes": [""],
-    "refactors": [""]
+    "fixes": [
+      "Fixed: users can't accept friend invitation",
+      "Fixed: chat groups not deleting when delete project",
+      "Fixed: Remove task parent reference when move task"
+    ],
+    "refactors": [
+      "Project notifications when add new members",
+      "Project permission notifications"
+    ]
   },
   "1.0.1": {
     "releaseName": "1.0.1",
     "releaseDate": "2021-01-11",
     "features": [
       {
-        "title": "",
-        "description": ""
+        "title": "Register flow",
+        "description": "Now to create a new account, first needs to verify the email."
       }
     ],
     "workingOn": [
@@ -1322,7 +1363,11 @@
         "description": ""
       }
     ],
-    "fixes": [""],
+    "fixes": [
+      "Fixed: Users not sending notifications in real-time",
+      "Fixed: Project not saving task assigns",
+      "Fixed: User can't join on voice-channel."
+    ],
     "refactors": [""]
   },
   "1.0.0": {
@@ -1330,8 +1375,8 @@
     "releaseDate": "2021-01-04",
     "features": [
       {
-        "title": "",
-        "description": ""
+        "title": "Organization invite by email",
+        "description": "Now organization administrator can invite to your organization by email"
       }
     ],
     "workingOn": [
@@ -1340,7 +1385,13 @@
         "description": ""
       }
     ],
-    "fixes": [""],
-    "refactors": [""]
+    "fixes": [
+      "Fixed: user search can't use case insensitive",
+      "Fixed: organization profiles were creating without timezone"
+    ],
+    "refactors": [
+      "Profile History Flow",
+      "Project and task notificatiosn cron when mentioned"
+    ]
   }
 }
