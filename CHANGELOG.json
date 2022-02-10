@@ -1,5 +1,5 @@
-{
-  "1.0.48": {
+[
+  {
     "releaseName": "1.0.48",
     "releaseDate": "2022-01-13",
     "features": [
@@ -17,7 +17,7 @@
     ],
     "fixes": ["Fix Wizard to add new tutorial video"]
   },
-  "1.0.47": {
+  {
     "releaseName": "1.0.47",
     "releaseDate": "2021-12-28",
     "features": [
@@ -59,7 +59,7 @@
       "Dashboard Calendar widget show wrong events"
     ]
   },
-  "1.0.46": {
+  {
     "releaseName": "1.0.46",
     "releaseDate": "2021-12-20",
     "features": [
@@ -85,7 +85,7 @@
       "Live Chat accounts for every user"
     ]
   },
-  "1.0.45": {
+  {
     "releaseName": "1.0.45",
     "releaseDate": "2021-12-13",
     "features": [
@@ -103,7 +103,7 @@
       "Fix custom query status is not working"
     ]
   },
-  "1.0.44": {
+  {
     "releaseName": "1.0.44",
     "releaseDate": "2021-12-06",
     "features": [
@@ -121,7 +121,7 @@
       "Fix slot compartilhado nao mostra o owner correto"
     ]
   },
-  "1.0.42": {
+  {
     "releaseName": "1.0.42",
     "releaseDate": "2021-11-22",
     "features": [
@@ -142,7 +142,7 @@
       ""
     ]
   },
-  "1.0.43": {
+  {
     "releaseName": "1.0.43",
     "releaseDate": "2021-11-29",
     "features": [
@@ -160,7 +160,7 @@
       "Fix Calendario fica fazendo requisições sem parar"
     ]
   },
-  "1.0.41": {
+  {
     "releaseName": "1.0.41",
     "releaseDate": "2021-11-15",
     "features": [
@@ -196,7 +196,7 @@
       "General fixes and validations when ty to reproduce video in Safari's browser"
     ]
   },
-  "1.0.40": {
+  {
     "releaseName": "1.0.40",
     "releaseDate": "2021-11-08",
     "features": [
@@ -267,7 +267,7 @@
       "Zellim desktop - Chat screenshare popout window"
     ]
   },
-  "1.0.39": {
+  {
     "releaseName": "1.0.39",
     "releaseDate": "2021-09-27",
     "features": [
@@ -279,7 +279,7 @@
     "refactors": ["Contact - faster and accurate search in the contact search"],
     "fixes": []
   },
-  "1.0.38": {
+  {
     "releaseName": "1.0.38",
     "releaseDate": "2021-09-20",
     "features": [
@@ -299,7 +299,7 @@
       "Calendar - Not creating 15 minutes events"
     ]
   },
-  "1.0.37": {
+  {
     "releaseName": "1.0.37",
     "releaseDate": "2021-09-13",
     "features": [
@@ -371,7 +371,7 @@
       "Contacts - Fix special characters not showing correctly in csv export"
     ]
   },
-  "1.0.36": {
+  {
     "releaseName": "1.0.36",
     "releaseDate": "2021-09-06",
     "features": [
@@ -397,7 +397,7 @@
       "Contact - Fix address view"
     ]
   },
-  "1.0.35": {
+  {
     "releaseName": "1.0.35",
     "releaseDate": "2021-08-30",
     "features": [],
@@ -415,7 +415,7 @@
       "Profile - Load notifications properly when profile changes"
     ]
   },
-  "1.0.34": {
+  {
     "releaseName": "1.0.34",
     "releaseDate": "2021-08-23",
     "features": [],
@@ -428,7 +428,7 @@
       "Projects - Fix order global alert"
     ]
   },
-  "1.0.33": {
+  {
     "releaseName": "1.0.33",
     "releaseDate": "2021-08-16",
     "features": [],
@@ -442,7 +442,7 @@
       "Projects - Fix max length task title area"
     ]
   },
-  "1.0.32": {
+  {
     "releaseName": "1.0.32",
     "releaseDate": "2021-08-09",
     "features": [
@@ -475,7 +475,7 @@
       "Chat - Fix loading when scroll up conversation"
     ]
   },
-  "1.0.31": {
+  {
     "releaseName": "1.0.31",
     "releaseDate": "2021-08-02",
     "features": [],
@@ -484,7 +484,7 @@
       "Calendar - Fixed Cron Job in calendar events"
     ]
   },
-  "1.0.30": {
+  {
     "releaseName": "1.0.30",
     "releaseDate": "2021-07-26",
     "features": [],
@@ -511,7 +511,7 @@
       "Chat - Fix message status"
     ]
   },
-  "1.0.29": {
+  {
     "releaseName": "1.0.29",
     "releaseDate": "2021-07-19",
     "features": [
@@ -536,7 +536,7 @@
       "Chat - Fixed bug when accepting connection in chat"
     ]
   },
-  "1.0.28": {
+  {
     "releaseName": "1.0.28",
     "releaseDate": "2021-07-12",
     "features": [
@@ -562,7 +562,7 @@
       "Profile - Fix alpha colors from color picker"
     ]
   },
-  "1.0.27": {
+  {
     "releaseName": "1.0.27",
     "releaseDate": "2021-07-05",
     "features": [
@@ -595,7 +595,7 @@
       "Contacts - Fixed searching all profiles using special characters"
     ]
   },
-  "1.0.26": {
+  {
     "releaseName": "1.0.26",
     "releaseDate": "2021-06-28",
     "features": [
@@ -625,7 +625,7 @@
       "Projects - Fix plan to coupon 100%"
     ]
   },
-  "1.0.25": {
+  {
     "releaseName": "1.0.25",
     "releaseDate": "2021-06-21",
     "features": [
@@ -662,7 +662,7 @@
       "Projects - Fix filter projects from store"
     ]
   },
-  "1.0.24": {
+  {
     "releaseName": "1.0.24",
     "releaseDate": "2021-06-14",
     "features": [
@@ -689,7 +689,7 @@
       "Login - Fix human key from captcha"
     ]
   },
-  "1.0.23": {
+  {
     "releaseName": "1.0.23",
     "releaseDate": "2021-06-07",
     "features": [],
@@ -705,7 +705,7 @@
       "Conferencing - Fix: presentation history icons"
     ]
   },
-  "1.0.22": {
+  {
     "releaseName": "1.0.22",
     "releaseDate": "2021-05-31",
     "features": [
@@ -728,7 +728,7 @@
       "Projects - Fix validate apply coupon"
     ]
   },
-  "1.0.21": {
+  {
     "releaseName": "1.0.21",
     "releaseDate": "2021-05-24",
     "features": [
@@ -745,7 +745,7 @@
       "Conferencing - Running not appears in Presentation and Meetings"
     ]
   },
-  "1.0.20": {
+  {
     "releaseName": "1.0.20",
     "releaseDate": "2021-05-17",
     "features": [
@@ -781,7 +781,7 @@
       "Profile - Fixed bug where changing to a deleted profile might prevent log in"
     ]
   },
-  "1.0.19": {
+  {
     "releaseName": "1.0.19",
     "releaseDate": "2021-05-10",
     "features": [
@@ -805,13 +805,13 @@
       "Projects - Fix text is not changing to black automatically"
     ]
   },
-  "1.0.18": {
+  {
     "releaseName": "1.0.18",
     "releaseDate": "2021-05-03",
     "features": [],
     "fixes": ["Over 50+ small and medium bugs resolved"]
   },
-  "1.0.17": {
+  {
     "releaseName": "1.0.17",
     "releaseDate": "2021-04-26",
     "features": [
@@ -830,7 +830,7 @@
     ],
     "fixes": []
   },
-  "1.0.16": {
+  {
     "releaseName": "1.0.16",
     "releaseDate": "2021-04-23",
     "features": [
@@ -877,7 +877,7 @@
       }
     ]
   },
-  "1.0.15": {
+  {
     "releaseName": "1.0.15",
     "releaseDate": "2021-04-19",
     "features": [
@@ -925,7 +925,7 @@
       }
     ]
   },
-  "1.0.14": {
+  {
     "releaseName": "1.0.14",
     "releaseDate": "2021-04-12",
     "features": [
@@ -976,7 +976,7 @@
       }
     ]
   },
-  "1.0.13": {
+  {
     "releaseName": "1.0.13",
     "releaseDate": "2021-04-05",
     "features": [
@@ -1028,7 +1028,7 @@
       }
     ]
   },
-  "1.0.12": {
+  {
     "releaseName": "1.0.12",
     "releaseDate": "2021-03-29",
     "features": [
@@ -1089,7 +1089,7 @@
       }
     ]
   },
-  "1.0.11": {
+  {
     "releaseName": "1.0.11",
     "releaseDate": "2021-03-22",
     "features": [
@@ -1126,7 +1126,7 @@
       }
     ]
   },
-  "1.0.10": {
+  {
     "releaseName": "1.0.10",
     "releaseDate": "2021-03-15",
     "features": [
@@ -1163,7 +1163,7 @@
       }
     ]
   },
-  "1.0.9": {
+  {
     "releaseName": "1.0.9",
     "releaseDate": "2021-03-08",
     "features": [
@@ -1189,7 +1189,7 @@
     ],
     "refactors": [""]
   },
-  "1.0.8": {
+  {
     "releaseName": "1.0.8",
     "releaseDate": "2021-03-01",
     "features": [
@@ -1211,7 +1211,7 @@
     ],
     "refactors": [""]
   },
-  "1.0.7": {
+  {
     "releaseName": "1.0.7",
     "releaseDate": "2021-02-22",
     "features": [
@@ -1233,7 +1233,7 @@
     ],
     "refactors": [""]
   },
-  "1.0.6": {
+  {
     "releaseName": "1.0.6",
     "releaseDate": "2021-02-15",
     "features": [
@@ -1255,7 +1255,7 @@
     ],
     "refactors": ["Create user account email template."]
   },
-  "1.0.5": {
+  {
     "releaseName": "1.0.5",
     "releaseDate": "2021-02-08",
     "features": [
@@ -1277,7 +1277,7 @@
     ],
     "refactors": ["Changed organization invite email"]
   },
-  "1.0.4": {
+  {
     "releaseName": "1.0.4",
     "releaseDate": "2021-02-01",
     "features": [
@@ -1300,7 +1300,7 @@
     ],
     "refactors": ["Contact import from CSV"]
   },
-  "1.0.3": {
+  {
     "releaseName": "1.0.3",
     "releaseDate": "2021-01-25",
     "features": [
@@ -1323,7 +1323,7 @@
     ],
     "refactors": [""]
   },
-  "1.0.2": {
+  {
     "releaseName": "1.0.2",
     "releaseDate": "2021-01-18",
     "features": [
@@ -1348,7 +1348,7 @@
       "Project permission notifications"
     ]
   },
-  "1.0.1": {
+  {
     "releaseName": "1.0.1",
     "releaseDate": "2021-01-11",
     "features": [
@@ -1370,7 +1370,7 @@
     ],
     "refactors": [""]
   },
-  "1.0.0": {
+  {
     "releaseName": "1.0.0",
     "releaseDate": "2021-01-04",
     "features": [
@@ -1394,4 +1394,4 @@
       "Project and task notificatiosn cron when mentioned"
     ]
   }
-}
+]
